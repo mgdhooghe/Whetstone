@@ -1,4 +1,4 @@
-# PostGAN
+# Whetstone
 Run the following line to apply PostGAN to synthetic data in the specified 'directory' with respect to the provided protected feature:  
 `python main.py [directory] [training_file] [protected feature] [privileged value] [predicted feature] [preferred value] [selected_data_percentage]`
 
