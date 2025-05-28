@@ -1,0 +1,30 @@
+TABFAIRGAN: python TabFairGan.py {args}
+
+{args}:
+
+	with_fairness TRAIN_CENSUS.csv "SEX" "INCOME_50K" " Female" "50000+." 200 256 30 0.5 sample_data_census.csv 99000
+
+	with_fairness TRAIN_GERMAN.csv "gender" "labels" "female" "1" 200 128 30 0.5 sample_data_german.csv 1000
+
+	with_fairness TRAIN_ADULT.csv "sex" "income" "Female" ">50K" 200 256 30 0.5 sample_data_adult.csv 32561
+
+	with_fairness TRAIN-PROPUBLICA-COMPAS.csv "sex" "two_year_recid" "Female" "0" 200 256 30 0.5 sample_data_pro_compas.csv 5856
+
+
+
+{args}: SPLIT:
+
+	with_fairness PROPUBLICA-COMPAS-SPLIT-TRAIN.csv "sex" "two_year_recid" "Female" "0" 200 256 30 0.5 sample_data_pro_compas_tab_split_0.csv 3922 &
+ 	with_fairness GERMAN-SPLIT-TRAIN.csv "gender" "labels" "female" "1" 200 128 30 0.5 sample_data_german_tab_split_0_0_0.csv 667
+
+{args}: SPLIT-60:
+
+	with_fairness PROPUBLICA-COMPAS-SPLIT-TRAIN.csv "sex" "two_year_recid" "Female" "0" 200 256 30 0.5 sample_data_pro_compas_tab_split_60_0_0.csv 3514 &
+ 	with_fairness GERMAN-SPLIT-TRAIN-60.csv "gender" "labels" "female" "1" 200 128 30 0.5 sample_data_german_tab_split_60_0_0.csv 601 &
+
+	with_fairness ADULT-SPLIT-TRAIN-60.csv "sex" "income" "Female" ">50K" 200 256 30 0.5 sample_data_adult_tab_split_60_0_0.csv 27857 &
+
+	with_fairness bank-full-SPLIT-TRAIN-60-age.csv "age" "y" "0" "yes" 200 256 30 0.5 sample_data_bank_tab_split_age_60_0_0.csv 27127 &
+
+	with_fairness meps21-SPLIT-TRAIN-60.csv "RACE" "UTILIZATION" "0.0" "1.0" 200 256 30 0.5 sample_data_meps_tab_split_age_60_0_0.csv 9405 &
+

@@ -1,0 +1,991 @@
+TEST FILE:  bank/bank-full-SPLIT-TEST-20-age.csv
+TRAIN FILE:  bank/bank-full-SPLIT-TRAIN-60-age.csv
+ALL TEST FILE:  bank/bank-full-SPLIT-ALL-40-age.csv
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+no other protected
+['sample_data_0_10_0.csv', 'sample_data_1_10_0.csv', 'sample_data_2_10_0.csv']
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan    contact  day month  duration  campaign  pdays  previous poutcome    y
+0        1    housemaid  married    primary      no     5048      no   no    unknown   18   jun       163         1     -1         0  unknown   no
+1        1  blue-collar  married  secondary      no      485     yes   no  telephone   12   may      1100         2     -1         0  unknown   no
+2        1   management  married  secondary      no     2897      no   no   cellular    2   jul       301         2     88         5  failure   no
+3        1   management   single   tertiary      no     4718     yes   no   cellular   21   nov       536         1     -1         0  unknown  yes
+4        1      retired  married    primary      no     1374      no  yes    unknown   14   may        22         3     -1         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...        ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121    1  blue-collar  married    primary      no      397      no   no   cellular   22   aug       263         1     -1         0  unknown   no
+27122    1  blue-collar  married  secondary      no     1736      no  yes    unknown   18   jun        66         1     -1         0  unknown   no
+27123    1   technician  married   tertiary      no    11766     yes   no   cellular   13   apr       218         2    242         9  failure  yes
+27124    1   technician   single   tertiary      no      591     yes   no    unknown   26   may       164         1     -1         0  unknown   no
+27125    1  blue-collar  married  secondary      no     2761     yes   no   cellular   18   may       325         1     -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education default  balance housing loan    contact  day month  duration  campaign  pdays  previous poutcome    y
+0        1   technician   married  secondary      no       84      no  yes   cellular   29   jul       403         3     -1         0  unknown   no
+1        1      retired   married    primary      no     3288      no   no   cellular   19   aug       186         4     -1         0  unknown   no
+2        1     services   married    unknown      no      224     yes   no    unknown   29   may        52         3     -1         0  unknown   no
+3        1   management  divorced   tertiary      no      297      no   no   cellular   12   aug       127         1     -1         0  unknown   no
+4        1  blue-collar   married    primary      no      219      no  yes    unknown   18   jun      1574         3     -1         0  unknown  yes
+...    ...          ...       ...        ...     ...      ...     ...  ...        ...  ...   ...       ...       ...    ...       ...      ...  ...
+18080    1      student    single    unknown      no     1279      no   no  telephone   20   oct      2429         1     -1         0  unknown   no
+18081    1      unknown   married    unknown      no     1547      no   no  telephone    5   aug      1186         4     -1         0  unknown  yes
+18082    1     services    single  secondary      no      146     yes   no    unknown   19   may       104         2     -1         0  unknown   no
+18083    1   technician    single  secondary      no     1609     yes   no    unknown   30   may       288         3     -1         0  unknown   no
+18084    1   technician   married  secondary      no      473      no  yes   cellular   13   aug       112         1     -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    15836
+     1.0     1198
+0    0.0      817
+     1.0      234
+dtype: int64
+CALC disp:  0.6841164327955451
+F:  [0.6841164327955451, 0.7247246762207862, 0.06434145564580346, 0.15231517152631546, 0.0780702750895825, 0.06908004162781192]
+A:  [0.9032618409294012, 0.9073265136853746, 0.6933278237813287, 0.7056419331358098, 0.002832928722323853]
+age  y  
+1    0.0    15827
+     1.0     1207
+0    0.0      813
+     1.0      238
+dtype: int64
+CALC disp:  0.6870922021503212
+F:  [0.6870922021503212, 0.7004352499603517, 0.06943780856824328, 0.1555927156153915, 0.0780104438218905, 0.07277030140886376]
+A:  [0.9032618409294012, 0.9070500414708322, 0.6982994695243843, 0.7063053167402201, 0.003683675142489328]
+age  y  
+1    0.0    15845
+     1.0     1189
+0    0.0      815
+     1.0      236
+dtype: int64
+CALC disp:  0.6891463832056723
+F:  [0.6891463832056723, 0.7011426319936958, 0.05956362478101607, 0.1547464761527485, 0.07777123796153022, 0.06914244015154408]
+A:  [0.9041554959785523, 0.907934752557368, 0.688447883081507, 0.706396318907581, 0.002524287782811765]
+age  y  
+1    0.0    15841
+     1.0     1193
+0    0.0      817
+     1.0      234
+dtype: int64
+CALC disp:  0.6854348116236105
+F:  [0.6854348116236105, 0.7306405693950178, 0.052715400541487545, 0.1526087021122025, 0.07892684657366505, 0.06663075255896084]
+A:  [0.9053842716711349, 0.9062759192701133, 0.6870721261977386, 0.7025872197325608, 0.0022712513118682267]
+age  y  
+1    0.0    15849
+     1.0     1185
+0    0.0      824
+     1.0      227
+dtype: int64
+CALC disp:  0.6779090174147688
+F:  [0.6779090174147688, 0.7313259189146553, 0.053033922599140026, 0.1464180275481946, 0.07814913606745628, 0.06172955432420736]
+A:  [0.9039320822162645, 0.9077688692286425, 0.6883213808677182, 0.7046625130614005, 0.0037030739957789574]
+RandomForest
+sample_data_0_10_0.csv
+0/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_0_10_0.csv
+age
+inbank
+       age         job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       42    services   single   tertiary     yes     1164      no  yes   unknown   12   jun       431         3    262         6  failure  yes
+1       31      admin.  married  secondary      no      214     yes   no  cellular   30   may       162         1     -1         0  unknown   no
+2       30  management  married  secondary      no      895     yes   no  cellular    2   aug        55         1     -1         0  unknown   no
+3       51  technician   single   tertiary      no     1923     yes   no   unknown    6   nov       149         1    397         0  unknown   no
+4       28      admin.   single    primary     yes    23108      no  yes   unknown   15   aug       270         4    166        13  failure  yes
+...    ...         ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   36  technician  married  secondary      no      532     yes   no  cellular   16   may        43         0     -1         0  unknown   no
+27122   61      admin.   single   tertiary     yes      681      no   no   unknown   15   jun       113         1    180         2  failure   no
+27123   30  technician  married  secondary      no      426     yes   no  cellular   31   may        65         1      0         0  unknown   no
+27124   29      admin.  married  secondary      no      629     yes   no  cellular   20   may       149         0     -1         0  unknown   no
+27125   39    services   single    primary     yes     2769      no  yes   unknown   26   apr       434         3    352         3  failure  yes
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16635
+0    0.0     1038
+1    1.0      399
+0    1.0       13
+dtype: int64
+CALC disp:  0.47193864776117267
+F:  [0.47193864776117267, 1, -0.01608536391145087, -0.011054568536850294, 0.13027316864631022, -0.012276315560166857]
+A:  [0.9813449508489723, 0.8648603815316561, 0.9730015224130228, 0.49833943980071976, 0.8088465899500935]
+age  y  
+1    0.0    16588
+0    0.0     1037
+1    1.0      446
+0    1.0       14
+dtype: int64
+CALC disp:  0.4912468586398604
+F:  [0.4912468586398604, 1, -0.016642777512342728, -0.012862281258270386, 0.13122164886734675, -0.013378337656077394]
+A:  [0.9802278820375335, 0.8623168371578657, 0.9706762516168214, 0.497104133469372, 0.8122597813256871]
+age  y  
+1    0.0    16649
+0    0.0     1037
+1    1.0      385
+0    1.0       14
+dtype: int64
+CALC disp:  0.41063921806072134
+F:  [0.41063921806072134, 1, -0.013855709507883422, -0.00928120811044838, 0.13032969678400622, -0.010147533312640393]
+A:  [0.9808981233243967, 0.8651368537461985, 0.9702151717871559, 0.49767605619630945, 0.8048353141917205]
+age  y  
+1    0.0    16660
+0    0.0     1039
+1    1.0      374
+0    1.0       12
+dtype: int64
+CALC disp:  0.479975780641813
+F:  [0.479975780641813, 1, -0.014970536709667146, -0.01053839039333322, 0.12987710713138326, -0.011650179839663401]
+A:  [0.9811215370866846, 0.8660768592756428, 0.9710728925883434, 0.4986183059545544, 0.8067605151316737]
+age  y  
+1    0.0    16650
+0    0.0     1037
+1    1.0      384
+0    1.0       14
+dtype: int64
+CALC disp:  0.4091044243577545
+F:  [0.4091044243577545, 1, -0.014413123108775282, -0.009222501993270972, 0.13022326040411472, -0.01036062331518606]
+A:  [0.9786639857015192, 0.865302737074924, 0.9709191753122135, 0.4979749724211643, 0.8099558839441212]
+RandomForest
+sample_data_1_10_0.csv
+1/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_1_10_0.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       43   management  married  secondary      no      116      no   no  cellular    7   jul        99         1      0         0  unknown   no
+1       45     services  married  secondary      no      277      no   no  cellular    7   aug       117         1      0         0  unknown   no
+2       36   technician  married  secondary      no     -291      no   no  cellular   10   jul        94         0      0         0  unknown   no
+3       33  blue-collar  married  secondary      no      253     yes   no  cellular   16   may        83         1      0         0  unknown   no
+4       37   management  married  secondary      no     -115     yes   no  cellular    9   aug        39         1      0         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   38  blue-collar  married  secondary      no      448     yes   no  cellular    9   may        43         1      0         0  unknown   no
+27122   35     services  married  secondary      no      500     yes   no  cellular   29   may       172         0     -1         0  unknown   no
+27123   56     services   single   tertiary      no     3069      no   no  cellular    8   nov       172         2     -1         0  unknown   no
+27124   35  blue-collar  married  secondary      no      108     yes   no  cellular   18   may        72         1      0         0  unknown   no
+27125   30     services   single   tertiary     yes     5254     yes  yes   unknown    4   nov       318         6    178         2  failure  yes
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    14922
+     1.0     2112
+0    0.0      990
+     1.0       61
+dtype: int64
+CALC disp:  0.5318879205951043
+F:  [0.5318879205951043, 1, -0.07397674788979136, -0.06594735753768112, 0.14723501108386688, -0.06562133031917605]
+A:  [0.9970956210902592, 0.7855128559579763, 0.9900692943077549, 0.4868210661227963, 0.6954888431931235]
+age  y  
+1    0.0    15056
+     1.0     1978
+0    0.0      993
+     1.0       58
+dtype: int64
+CALC disp:  0.524757104553514
+F:  [0.524757104553514, 1, -0.06864150342411211, -0.06093516219366272, 0.14564213577302984, -0.06143210044778508]
+A:  [0.9969839142091153, 0.7927564279789882, 0.9878233324969585, 0.4903078104659536, 0.6962132927324801]
+age  y  
+1    0.0    15059
+     1.0     1975
+0    0.0      994
+     1.0       57
+dtype: int64
+CALC disp:  0.5322415059798384
+F:  [0.5322415059798384, 1, -0.07142857142857142, -0.061710518628048654, 0.14520259027366167, -0.06324903831465511]
+A:  [0.9973190348525469, 0.793530550179707, 0.9906316799789319, 0.4917710809258155, 0.6974605932126795]
+age  y  
+1    0.0    14916
+     1.0     2118
+0    0.0      989
+     1.0       62
+dtype: int64
+CALC disp:  0.5255617879100709
+F:  [0.5255617879100709, 1, -0.07087115782767957, -0.06534811945482741, 0.14724954318027783, -0.06426538568182094]
+A:  [0.9967605004468275, 0.7852363837434337, 0.9894440234649013, 0.48686949703235277, 0.7047990649285846]
+age  y  
+1    0.0    15320
+     1.0     1714
+0    0.0      998
+     1.0       53
+dtype: int64
+CALC disp:  0.49883702469282465
+F:  [0.49883702469282465, 1, -0.06505813027552157, -0.05019412118841737, 0.14282719720863393, -0.05411618156302244]
+A:  [0.9959785522788204, 0.8061929776057506, 0.9876939812796938, 0.4952515069071089, 0.6912005866456888]
+RandomForest
+sample_data_2_10_0.csv
+2/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_2_10_0.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       46  blue-collar  married   tertiary      no      572     yes   no  cellular    7   jul       196         1     -1         0  unknown   no
+1       32   management  married  secondary      no      205     yes   no  cellular   22   may       138         0      0         0  unknown   no
+2       41       admin.  married    primary     yes     7673     yes   no   unknown    9   may       207         1    267         0  failure  yes
+3       38       admin.   single  secondary      no     -324      no   no  cellular   16   jun       167         1      0         0  unknown   no
+4       36       admin.   single  secondary      no     -220      no   no  cellular   19   jun       169         1      0         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   35   management   single  secondary      no      178     yes   no  cellular   28   jun       216         1      0         0  unknown   no
+27122   36       admin.   single  secondary      no     -178     yes   no  cellular   16   jun       152         1      0         0  unknown   no
+27123   39   technician   single  secondary      no     -474      no  yes   unknown   14   aug       150         1      0         0  unknown   no
+27124   37       admin.   single  secondary      no     -297      no   no  cellular   27   jun       155         1      0         0  unknown   no
+27125   37       admin.   single  secondary      no     -230      no   no  cellular   27   jun       159         1     -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16822
+0    0.0     1043
+1    1.0      212
+0    1.0        8
+dtype: int64
+CALC disp:  0.3883991885535788
+F:  [0.3883991885535788, 1, -0.00015926102882624603, -0.004833898554265511, 0.12787724036323458, -0.0030479130284815806]
+A:  [0.9925156389633601, 0.8730439590821123, 0.9844171874299683, 0.49846376503814516, 0.606362536375573]
+age  y  
+1    0.0    16838
+0    0.0     1043
+1    1.0      196
+0    1.0        8
+dtype: int64
+CALC disp:  0.3384725917008097
+F:  [0.3384725917008097, 1, -0.002707437490046186, -0.003894600679426951, 0.1276829654434618, -0.003144004218598155]
+A:  [0.9929624664879356, 0.8737074923970141, 0.9859592074762289, 0.49842952454785683, 0.6232704717381871]
+age  y  
+1    0.0    16793
+0    0.0     1040
+1    1.0      241
+0    1.0       11
+dtype: int64
+CALC disp:  0.26024217204717104
+F:  [0.26024217204717104, 1, 0.003503742634177416, -0.0036819515946558776, 0.12860356857884395, -0.0008289210530008327]
+A:  [0.993521000893655, 0.8712745369090407, 0.9875665443089036, 0.4974618237769516, 0.6137818199164171]
+age  y  
+1    0.0    16788
+0    0.0     1037
+1    1.0      246
+0    1.0       14
+dtype: int64
+CALC disp:  0.07762641850966556
+F:  [0.07762641850966556, 1, 0.002946329033285554, -0.0011210578227884068, 0.12869867418502792, 0.0008187517194769905]
+A:  [0.9939678284182306, 0.8709427702515897, 0.98782781145456, 0.49747894402209575, 0.6120255248548458]
+age  y  
+1    0.0    16798
+0    0.0     1040
+1    1.0      236
+0    1.0       11
+dtype: int64
+CALC disp:  0.24456933670918735
+F:  [0.24456933670918735, 1, 0.002946329033285554, -0.0033884210087688285, 0.12840503627490352, -0.0009107774597459763]
+A:  [0.9937444146559428, 0.8716615980094, 0.988657742557185, 0.49788598265945566, 0.6200411861313208]
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+no other protected
+['sample_data_0_10_0.csv', 'sample_data_1_10_0.csv', 'sample_data_2_10_0.csv']
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan    contact  day month  duration  campaign  pdays  previous poutcome    y
+0        1    housemaid  married    primary      no     5048      no   no    unknown   18   jun       163         1     -1         0  unknown   no
+1        1  blue-collar  married  secondary      no      485     yes   no  telephone   12   may      1100         2     -1         0  unknown   no
+2        1   management  married  secondary      no     2897      no   no   cellular    2   jul       301         2     88         5  failure   no
+3        1   management   single   tertiary      no     4718     yes   no   cellular   21   nov       536         1     -1         0  unknown  yes
+4        1      retired  married    primary      no     1374      no  yes    unknown   14   may        22         3     -1         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...        ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121    1  blue-collar  married    primary      no      397      no   no   cellular   22   aug       263         1     -1         0  unknown   no
+27122    1  blue-collar  married  secondary      no     1736      no  yes    unknown   18   jun        66         1     -1         0  unknown   no
+27123    1   technician  married   tertiary      no    11766     yes   no   cellular   13   apr       218         2    242         9  failure  yes
+27124    1   technician   single   tertiary      no      591     yes   no    unknown   26   may       164         1     -1         0  unknown   no
+27125    1  blue-collar  married  secondary      no     2761     yes   no   cellular   18   may       325         1     -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education default  balance housing loan    contact  day month  duration  campaign  pdays  previous poutcome    y
+0        1   technician   married  secondary      no       84      no  yes   cellular   29   jul       403         3     -1         0  unknown   no
+1        1      retired   married    primary      no     3288      no   no   cellular   19   aug       186         4     -1         0  unknown   no
+2        1     services   married    unknown      no      224     yes   no    unknown   29   may        52         3     -1         0  unknown   no
+3        1   management  divorced   tertiary      no      297      no   no   cellular   12   aug       127         1     -1         0  unknown   no
+4        1  blue-collar   married    primary      no      219      no  yes    unknown   18   jun      1574         3     -1         0  unknown  yes
+...    ...          ...       ...        ...     ...      ...     ...  ...        ...  ...   ...       ...       ...    ...       ...      ...  ...
+18080    1      student    single    unknown      no     1279      no   no  telephone   20   oct      2429         1     -1         0  unknown   no
+18081    1      unknown   married    unknown      no     1547      no   no  telephone    5   aug      1186         4     -1         0  unknown  yes
+18082    1     services    single  secondary      no      146     yes   no    unknown   19   may       104         2     -1         0  unknown   no
+18083    1   technician    single  secondary      no     1609     yes   no    unknown   30   may       288         3     -1         0  unknown   no
+18084    1   technician   married  secondary      no      473      no  yes   cellular   13   aug       112         1     -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16229
+0    0.0      821
+1    1.0      805
+0    1.0      230
+dtype: int64
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.8014684983420179, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.9022564789991063, 0.903179430467238, 0.6533997016867565, 0.6549173546430519, 0.0022027077276579442]
+age  y  
+1    0.0    16229
+0    0.0      821
+1    1.0      805
+0    1.0      230
+dtype: int64
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.8258221893408526, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.8996872207327972, 0.903179430467238, 0.6473875842970518, 0.6549173546430519, 0.0021314634018086095]
+age  y  
+1    0.0    16229
+0    0.0      821
+1    1.0      805
+0    1.0      230
+dtype: int64
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.8136935904394296, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.9009159964253798, 0.903179430467238, 0.6522263845921028, 0.6549173546430519, 0.003929314889421942]
+age  y  
+1    0.0    16229
+0    0.0      821
+1    1.0      805
+0    1.0      230
+dtype: int64
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.7994222158023978, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.9015862377122431, 0.903179430467238, 0.645562726430807, 0.6549173546430519, 0.002569778829775069]
+age  y  
+1    0.0    16229
+0    0.0      821
+1    1.0      805
+0    1.0      230
+dtype: int64
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.799386531746087, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.8984584450402144, 0.903179430467238, 0.6450346068735286, 0.6549173546430519, 0.0024011178162992868]
+LogReg
+sample_data_0_10_0.csv
+0/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_0_10_0.csv
+age
+inbank
+       age         job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       42    services   single   tertiary     yes     1164      no  yes   unknown   12   jun       431         3    262         6  failure  yes
+1       31      admin.  married  secondary      no      214     yes   no  cellular   30   may       162         1     -1         0  unknown   no
+2       30  management  married  secondary      no      895     yes   no  cellular    2   aug        55         1     -1         0  unknown   no
+3       51  technician   single   tertiary      no     1923     yes   no   unknown    6   nov       149         1    397         0  unknown   no
+4       28      admin.   single    primary     yes    23108      no  yes   unknown   15   aug       270         4    166        13  failure  yes
+...    ...         ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   36  technician  married  secondary      no      532     yes   no  cellular   16   may        43         0     -1         0  unknown   no
+27122   61      admin.   single   tertiary     yes      681      no   no   unknown   15   jun       113         1    180         2  failure   no
+27123   30  technician  married  secondary      no      426     yes   no  cellular   31   may        65         1      0         0  unknown   no
+27124   29      admin.  married  secondary      no      629     yes   no  cellular   20   may       149         0     -1         0  unknown   no
+27125   39    services   single    primary     yes     2769      no  yes   unknown   26   apr       434         3    352         3  failure  yes
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16774
+0    0.0     1037
+1    1.0      260
+0    1.0       14
+dtype: int64
+CALC disp:  0.12729268828222207
+F:  [0.12729268828222207, 1, 0.00023889154323936818, -0.0019429434632721454, 0.12747740765056012, -0.0018410923401286933]
+A:  [0.980674709562109, 0.8721592479955764, 0.9725701780564449, 0.5018574948082893, 0.8024684753618662]
+age  y  
+1    0.0    16774
+0    0.0     1037
+1    1.0      260
+0    1.0       14
+dtype: int64
+CALC disp:  0.12729268828222207
+F:  [0.12729268828222207, 1, 0.00023889154323936818, -0.0019429434632721454, 0.12747740765056012, -0.0018410923401286933]
+A:  [0.9826854334226989, 0.8721592479955764, 0.9752920898241684, 0.5018574948082893, 0.7996572970167207]
+age  y  
+1    0.0    16774
+0    0.0     1037
+1    1.0      260
+0    1.0       14
+dtype: int64
+CALC disp:  0.12729268828222207
+F:  [0.12729268828222207, 1, 0.00023889154323936818, -0.0019429434632721454, 0.12747740765056012, -0.0018410923401286933]
+A:  [0.9813449508489723, 0.8721592479955764, 0.9730015224130228, 0.5018574948082893, 0.8166170081988318]
+age  y  
+1    0.0    16774
+0    0.0     1037
+1    1.0      260
+0    1.0       14
+dtype: int64
+CALC disp:  0.12729268828222207
+F:  [0.12729268828222207, 1, 0.00023889154323936818, -0.0019429434632721454, 0.12747740765056012, -0.0018410923401286933]
+A:  [0.9787756925826631, 0.8721592479955764, 0.9693847025030716, 0.5018574948082893, 0.8114762122985614]
+age  y  
+1    0.0    16774
+0    0.0     1037
+1    1.0      260
+0    1.0       14
+dtype: int64
+CALC disp:  0.12729268828222207
+F:  [0.12729268828222207, 1, 0.00023889154323936818, -0.0019429434632721454, 0.12747740765056012, -0.0018410923401286933]
+A:  [0.9795576407506702, 0.8721592479955764, 0.9722082404699789, 0.5018574948082893, 0.8075110721517768]
+LogReg
+sample_data_1_10_0.csv
+1/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_1_10_0.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       43   management  married  secondary      no      116      no   no  cellular    7   jul        99         1      0         0  unknown   no
+1       45     services  married  secondary      no      277      no   no  cellular    7   aug       117         1      0         0  unknown   no
+2       36   technician  married  secondary      no     -291      no   no  cellular   10   jul        94         0      0         0  unknown   no
+3       33  blue-collar  married  secondary      no      253     yes   no  cellular   16   may        83         1      0         0  unknown   no
+4       37   management  married  secondary      no     -115     yes   no  cellular    9   aug        39         1      0         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   38  blue-collar  married  secondary      no      448     yes   no  cellular    9   may        43         1      0         0  unknown   no
+27122   35     services  married  secondary      no      500     yes   no  cellular   29   may       172         0     -1         0  unknown   no
+27123   56     services   single   tertiary      no     3069      no   no  cellular    8   nov       172         2     -1         0  unknown   no
+27124   35  blue-collar  married  secondary      no      108     yes   no  cellular   18   may        72         1      0         0  unknown   no
+27125   30     services   single   tertiary     yes     5254     yes  yes   unknown    4   nov       318         6    178         2  failure  yes
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16921
+0    0.0     1048
+1    1.0      113
+0    1.0        3
+dtype: int64
+CALC disp:  0.569714473362916
+F:  [0.569714473362916, 1, -0.0039018952062430325, -0.003779366883292798, 0.12658992823573653, -0.0033710247231111467]
+A:  [0.9967605004468275, 0.8773569256289743, 0.9903172541205494, 0.49824120185127113, 0.7026857362105718]
+age  y  
+1    0.0    16921
+0    0.0     1048
+1    1.0      113
+0    1.0        3
+dtype: int64
+CALC disp:  0.569714473362916
+F:  [0.569714473362916, 1, -0.0039018952062430325, -0.003779366883292798, 0.12658992823573653, -0.0033710247231111467]
+A:  [0.9964253798033958, 0.8773569256289743, 0.9875089066385758, 0.49824120185127113, 0.7120895268071802]
+age  y  
+1    0.0    16921
+0    0.0     1048
+1    1.0      113
+0    1.0        3
+dtype: int64
+CALC disp:  0.569714473362916
+F:  [0.569714473362916, 1, -0.0039018952062430325, -0.003779366883292798, 0.12658992823573653, -0.0033710247231111467]
+A:  [0.9978775692582663, 0.8773569256289743, 0.9935657978042584, 0.49824120185127113, 0.6947379509616446]
+age  y  
+1    0.0    16921
+0    0.0     1048
+1    1.0      113
+0    1.0        3
+dtype: int64
+CALC disp:  0.569714473362916
+F:  [0.569714473362916, 1, -0.0039018952062430325, -0.003779366883292798, 0.12658992823573653, -0.0033710247231111467]
+A:  [0.9974307417336908, 0.8773569256289743, 0.9920044111340803, 0.49824120185127113, 0.6992727825515171]
+age  y  
+1    0.0    16921
+0    0.0     1048
+1    1.0      113
+0    1.0        3
+dtype: int64
+CALC disp:  0.569714473362916
+F:  [0.569714473362916, 1, -0.0039018952062430325, -0.003779366883292798, 0.12658992823573653, -0.0033710247231111467]
+A:  [0.9964253798033958, 0.8773569256289743, 0.9866356759829279, 0.49824120185127113, 0.6986541655093109]
+LogReg
+sample_data_2_10_0.csv
+2/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_2_10_0.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       46  blue-collar  married   tertiary      no      572     yes   no  cellular    7   jul       196         1     -1         0  unknown   no
+1       32   management  married  secondary      no      205     yes   no  cellular   22   may       138         0      0         0  unknown   no
+2       41       admin.  married    primary     yes     7673     yes   no   unknown    9   may       207         1    267         0  failure  yes
+3       38       admin.   single  secondary      no     -324      no   no  cellular   16   jun       167         1      0         0  unknown   no
+4       36       admin.   single  secondary      no     -220      no   no  cellular   19   jun       169         1      0         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   35   management   single  secondary      no      178     yes   no  cellular   28   jun       216         1      0         0  unknown   no
+27122   36       admin.   single  secondary      no     -178     yes   no  cellular   16   jun       152         1      0         0  unknown   no
+27123   39   technician   single  secondary      no     -474      no  yes   unknown   14   aug       150         1      0         0  unknown   no
+27124   37       admin.   single  secondary      no     -297      no   no  cellular   27   jun       155         1      0         0  unknown   no
+27125   37       admin.   single  secondary      no     -230      no   no  cellular   27   jun       159         1     -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16927
+0    0.0     1040
+1    1.0      107
+0    1.0       11
+dtype: int64
+CALC disp:  0.39982601641636517
+F:  [0.39982601641636506, 1, 0.005972288580984234, 0.004184668107117047, 0.12646442859121992, 0.005159464446460275]
+A:  [0.9925156389633601, 0.8774675145147912, 0.9924218930587443, 0.4987137916433316, 0.6105558302850508]
+age  y  
+1    0.0    16927
+0    0.0     1040
+1    1.0      107
+0    1.0       11
+dtype: int64
+CALC disp:  0.39982601641636517
+F:  [0.39982601641636506, 1, 0.005972288580984234, 0.004184668107117047, 0.12646442859121992, 0.005159464446460275]
+A:  [0.9922922252010724, 0.8774675145147912, 0.990690318360161, 0.4987137916433316, 0.6059179921700665]
+age  y  
+1    0.0    16927
+0    0.0     1040
+1    1.0      107
+0    1.0       11
+dtype: int64
+CALC disp:  0.39982601641636517
+F:  [0.39982601641636506, 1, 0.005972288580984234, 0.004184668107117047, 0.12646442859121992, 0.005159464446460275]
+A:  [0.9927390527256479, 0.8774675145147912, 0.9938332795321767, 0.4987137916433316, 0.6079595070715001]
+age  y  
+1    0.0    16927
+0    0.0     1040
+1    1.0      107
+0    1.0       11
+dtype: int64
+CALC disp:  0.39982601641636517
+F:  [0.39982601641636506, 1, 0.005972288580984234, 0.004184668107117047, 0.12646442859121992, 0.005159464446460275]
+A:  [0.9943029490616622, 0.8774675145147912, 0.9947477145419743, 0.4987137916433316, 0.6298034840941626]
+age  y  
+1    0.0    16927
+0    0.0     1040
+1    1.0      107
+0    1.0       11
+dtype: int64
+CALC disp:  0.39982601641636517
+F:  [0.39982601641636506, 1, 0.005972288580984234, 0.004184668107117047, 0.12646442859121992, 0.005159464446460275]
+A:  [0.9940795352993744, 0.8774675145147912, 0.9933363280685419, 0.4987137916433316, 0.6138473987205235]
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+no other protected
+['sample_data_0_10_0.csv', 'sample_data_1_10_0.csv', 'sample_data_2_10_0.csv']
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan    contact  day month  duration  campaign  pdays  previous poutcome    y
+0        1    housemaid  married    primary      no     5048      no   no    unknown   18   jun       163         1     -1         0  unknown   no
+1        1  blue-collar  married  secondary      no      485     yes   no  telephone   12   may      1100         2     -1         0  unknown   no
+2        1   management  married  secondary      no     2897      no   no   cellular    2   jul       301         2     88         5  failure   no
+3        1   management   single   tertiary      no     4718     yes   no   cellular   21   nov       536         1     -1         0  unknown  yes
+4        1      retired  married    primary      no     1374      no  yes    unknown   14   may        22         3     -1         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...        ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121    1  blue-collar  married    primary      no      397      no   no   cellular   22   aug       263         1     -1         0  unknown   no
+27122    1  blue-collar  married  secondary      no     1736      no  yes    unknown   18   jun        66         1     -1         0  unknown   no
+27123    1   technician  married   tertiary      no    11766     yes   no   cellular   13   apr       218         2    242         9  failure  yes
+27124    1   technician   single   tertiary      no      591     yes   no    unknown   26   may       164         1     -1         0  unknown   no
+27125    1  blue-collar  married  secondary      no     2761     yes   no   cellular   18   may       325         1     -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education default  balance housing loan    contact  day month  duration  campaign  pdays  previous poutcome    y
+0        1   technician   married  secondary      no       84      no  yes   cellular   29   jul       403         3     -1         0  unknown   no
+1        1      retired   married    primary      no     3288      no   no   cellular   19   aug       186         4     -1         0  unknown   no
+2        1     services   married    unknown      no      224     yes   no    unknown   29   may        52         3     -1         0  unknown   no
+3        1   management  divorced   tertiary      no      297      no   no   cellular   12   aug       127         1     -1         0  unknown   no
+4        1  blue-collar   married    primary      no      219      no  yes    unknown   18   jun      1574         3     -1         0  unknown  yes
+...    ...          ...       ...        ...     ...      ...     ...  ...        ...  ...   ...       ...       ...    ...       ...      ...  ...
+18080    1      student    single    unknown      no     1279      no   no  telephone   20   oct      2429         1     -1         0  unknown   no
+18081    1      unknown   married    unknown      no     1547      no   no  telephone    5   aug      1186         4     -1         0  unknown  yes
+18082    1     services    single  secondary      no      146     yes   no    unknown   19   may       104         2     -1         0  unknown   no
+18083    1   technician    single  secondary      no     1609     yes   no    unknown   30   may       288         3     -1         0  unknown   no
+18084    1   technician   married  secondary      no      473      no  yes   cellular   13   aug       112         1     -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16253
+0    0.0      847
+1    1.0      781
+0    1.0      204
+dtype: int64
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8112989298454221, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.900804289544236, 0.9020735416090683, 0.6447056648706252, 0.6471166932481778, 0.0023888342180676076]
+age  y  
+1    0.0    16253
+0    0.0      847
+1    1.0      781
+0    1.0      204
+dtype: int64
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8093771938937738, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.8967828418230563, 0.9020735416090683, 0.6291709030409465, 0.6471166932481778, 0.0031347763955685472]
+age  y  
+1    0.0    16253
+0    0.0      847
+1    1.0      781
+0    1.0      204
+dtype: int64
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8025583902263744, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.9018096514745308, 0.9020735416090683, 0.6519037858234152, 0.6471166932481778, 0.002795207532936057]
+age  y  
+1    0.0    16253
+0    0.0      847
+1    1.0      781
+0    1.0      204
+dtype: int64
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8301359926789074, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.900692582663092, 0.9020735416090683, 0.6429851985160456, 0.6471166932481778, 0.0021390778573318284]
+age  y  
+1    0.0    16253
+0    0.0      847
+1    1.0      781
+0    1.0      204
+dtype: int64
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8381372522830223, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.9044906166219839, 0.9020735416090683, 0.6480358628339034, 0.6471166932481778, 0.0036914385278770624]
+LinSVC
+sample_data_0_10_0.csv
+0/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_0_10_0.csv
+age
+inbank
+       age         job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       42    services   single   tertiary     yes     1164      no  yes   unknown   12   jun       431         3    262         6  failure  yes
+1       31      admin.  married  secondary      no      214     yes   no  cellular   30   may       162         1     -1         0  unknown   no
+2       30  management  married  secondary      no      895     yes   no  cellular    2   aug        55         1     -1         0  unknown   no
+3       51  technician   single   tertiary      no     1923     yes   no   unknown    6   nov       149         1    397         0  unknown   no
+4       28      admin.   single    primary     yes    23108      no  yes   unknown   15   aug       270         4    166        13  failure  yes
+...    ...         ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   36  technician  married  secondary      no      532     yes   no  cellular   16   may        43         0     -1         0  unknown   no
+27122   61      admin.   single   tertiary     yes      681      no   no   unknown   15   jun       113         1    180         2  failure   no
+27123   30  technician  married  secondary      no      426     yes   no  cellular   31   may        65         1      0         0  unknown   no
+27124   29      admin.  married  secondary      no      629     yes   no  cellular   20   may       149         0     -1         0  unknown   no
+27125   39    services   single    primary     yes     2769      no  yes   unknown   26   apr       434         3    352         3  failure  yes
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    15454
+     1.0     1580
+0    0.0      994
+     1.0       57
+dtype: int64
+CALC disp:  0.41530188247479793
+F:  [0.41530188247479793, 1, -0.06505813027552157, -0.03852160234297174, 0.14085846138849825, -0.046976371878739154]
+A:  [0.9813449508489723, 0.8133812551838541, 0.9753218252972558, 0.49932189328070775, 0.8116202075230685]
+age  y  
+1    0.0    15454
+     1.0     1580
+0    0.0      994
+     1.0       57
+dtype: int64
+CALC disp:  0.41530188247479793
+F:  [0.41530188247479793, 1, -0.06505813027552157, -0.03852160234297174, 0.14085846138849825, -0.046976371878739154]
+A:  [0.9793342269883825, 0.8133812551838541, 0.970458095482548, 0.49932189328070775, 0.7967965723093255]
+age  y  
+1    0.0    15454
+     1.0     1580
+0    0.0      994
+     1.0       57
+dtype: int64
+CALC disp:  0.41530188247479793
+F:  [0.41530188247479793, 1, -0.06505813027552157, -0.03852160234297174, 0.14085846138849825, -0.046976371878739154]
+A:  [0.9801161751563896, 0.8133812551838541, 0.9725676941004606, 0.49932189328070775, 0.8062219047861472]
+age  y  
+1    0.0    15454
+     1.0     1580
+0    0.0      994
+     1.0       57
+dtype: int64
+CALC disp:  0.41530188247479793
+F:  [0.41530188247479793, 1, -0.06505813027552157, -0.03852160234297174, 0.14085846138849825, -0.046976371878739154]
+A:  [0.9794459338695264, 0.8133812551838541, 0.9703515013713957, 0.49932189328070775, 0.8122008045783068]
+age  y  
+1    0.0    15453
+     1.0     1581
+0    0.0      994
+     1.0       57
+dtype: int64
+CALC disp:  0.41567171050612317
+F:  [0.41567171050612317, 1, -0.06505813027552157, -0.038580308460149156, 0.1408739240234289, -0.047009180277689286]
+A:  [0.9793342269883825, 0.8133259607409455, 0.970458095482548, 0.49929058261629544, 0.7997829838185915]
+LinSVC
+sample_data_1_10_0.csv
+1/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_1_10_0.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       43   management  married  secondary      no      116      no   no  cellular    7   jul        99         1      0         0  unknown   no
+1       45     services  married  secondary      no      277      no   no  cellular    7   aug       117         1      0         0  unknown   no
+2       36   technician  married  secondary      no     -291      no   no  cellular   10   jul        94         0      0         0  unknown   no
+3       33  blue-collar  married  secondary      no      253     yes   no  cellular   16   may        83         1      0         0  unknown   no
+4       37   management  married  secondary      no     -115     yes   no  cellular    9   aug        39         1      0         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   38  blue-collar  married  secondary      no      448     yes   no  cellular    9   may        43         1      0         0  unknown   no
+27122   35     services  married  secondary      no      500     yes   no  cellular   29   may       172         0     -1         0  unknown   no
+27123   56     services   single   tertiary      no     3069      no   no  cellular    8   nov       172         2     -1         0  unknown   no
+27124   35  blue-collar  married  secondary      no      108     yes   no  cellular   18   may        72         1      0         0  unknown   no
+27125   30     services   single   tertiary     yes     5254     yes  yes   unknown    4   nov       318         6    178         2  failure  yes
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16848
+0    0.0     1047
+1    1.0      186
+0    1.0        4
+dtype: int64
+CALC disp:  0.6514533010036524
+F:  [0.6514533010036524, 1, -0.006688963210702341, -0.007113438651325545, 0.12787646688986737, -0.006309658797708299]
+A:  [0.9965370866845398, 0.8738180812828311, 0.9875717918102525, 0.49726224048697376, 0.7015854539558719]
+age  y  
+1    0.0    16848
+0    0.0     1047
+1    1.0      186
+0    1.0        4
+dtype: int64
+CALC disp:  0.6514533010036524
+F:  [0.6514533010036524, 1, -0.006688963210702341, -0.007113438651325545, 0.12787646688986737, -0.006309658797708299]
+A:  [0.9970956210902592, 0.8738180812828311, 0.9909425249634028, 0.49726224048697376, 0.6983589556109717]
+age  y  
+1    0.0    16848
+0    0.0     1047
+1    1.0      186
+0    1.0        4
+dtype: int64
+CALC disp:  0.6514533010036524
+F:  [0.6514533010036524, 1, -0.006688963210702341, -0.007113438651325545, 0.12787646688986737, -0.006309658797708299]
+A:  [0.9973190348525469, 0.8738180812828311, 0.9923781412902278, 0.49726224048697376, 0.701310515459673]
+age  y  
+1    0.0    16848
+0    0.0     1047
+1    1.0      186
+0    1.0        4
+dtype: int64
+CALC disp:  0.6514533010036524
+F:  [0.6514533010036524, 1, -0.006688963210702341, -0.007113438651325545, 0.12787646688986737, -0.006309658797708299]
+A:  [0.9977658623771224, 0.8738180812828311, 0.9935029126325818, 0.49726224048697376, 0.6931778867875237]
+age  y  
+1    0.0    16848
+0    0.0     1047
+1    1.0      186
+0    1.0        4
+dtype: int64
+CALC disp:  0.6514533010036524
+F:  [0.6514533010036524, 1, -0.006688963210702341, -0.007113438651325545, 0.12787646688986737, -0.006309658797708299]
+A:  [0.9977658623771224, 0.8738180812828311, 0.9926296819769339, 0.49726224048697376, 0.6975645457118093]
+LinSVC
+sample_data_2_10_0.csv
+2/3
+../bank/bank-full-VGAN-1hot-gmm-split-60-WTrain/10//sample_data_2_10_0.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan   contact  day month  duration  campaign  pdays  previous poutcome    y
+0       46  blue-collar  married   tertiary      no      572     yes   no  cellular    7   jul       196         1     -1         0  unknown   no
+1       32   management  married  secondary      no      205     yes   no  cellular   22   may       138         0      0         0  unknown   no
+2       41       admin.  married    primary     yes     7673     yes   no   unknown    9   may       207         1    267         0  failure  yes
+3       38       admin.   single  secondary      no     -324      no   no  cellular   16   jun       167         1      0         0  unknown   no
+4       36       admin.   single  secondary      no     -220      no   no  cellular   19   jun       169         1      0         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...       ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121   35   management   single  secondary      no      178     yes   no  cellular   28   jun       216         1      0         0  unknown   no
+27122   36       admin.   single  secondary      no     -178     yes   no  cellular   16   jun       152         1      0         0  unknown   no
+27123   39   technician   single  secondary      no     -474      no  yes   unknown   14   aug       150         1      0         0  unknown   no
+27124   37       admin.   single  secondary      no     -297      no   no  cellular   27   jun       155         1      0         0  unknown   no
+27125   37       admin.   single  secondary      no     -230      no   no  cellular   27   jun       159         1     -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    16885
+0    0.0     1041
+1    1.0      149
+0    1.0       10
+dtype: int64
+CALC disp:  0.08066807561347888
+F:  [0.08066807561347877, 1, 0.006848224239528586, 0.0007675363997476578, 0.12698955749094562, 0.0029789710031446117]
+A:  [0.9940795352993744, 0.8757533867846281, 0.9942968927439949, 0.4987680822046401, 0.6077128140571713]
+age  y  
+1    0.0    16885
+0    0.0     1041
+1    1.0      149
+0    1.0       10
+dtype: int64
+CALC disp:  0.08066807561347888
+F:  [0.08066807561347877, 1, 0.006848224239528586, 0.0007675363997476578, 0.12698955749094562, 0.0029789710031446117]
+A:  [0.9926273458445041, 0.8757533867846281, 0.9915266451697053, 0.4987680822046401, 0.6171650838594094]
+age  y  
+1    0.0    16885
+0    0.0     1041
+1    1.0      149
+0    1.0       10
+dtype: int64
+CALC disp:  0.08066807561347888
+F:  [0.08066807561347877, 1, 0.006848224239528586, 0.0007675363997476578, 0.12698955749094562, 0.0029789710031446117]
+A:  [0.9930741733690795, 0.8757533867846281, 0.9930686652159659, 0.4987680822046401, 0.6189473318164945]
+age  y  
+1    0.0    16885
+0    0.0     1041
+1    1.0      149
+0    1.0       10
+dtype: int64
+CALC disp:  0.08066807561347888
+F:  [0.08066807561347877, 1, 0.006848224239528586, 0.0007675363997476578, 0.12698955749094562, 0.0029789710031446117]
+A:  [0.993632707774799, 0.8757533867846281, 0.9933952491480365, 0.4987680822046401, 0.6176443220864033]
+age  y  
+1    0.0    16885
+0    0.0     1041
+1    1.0      149
+0    1.0       10
+dtype: int64
+CALC disp:  0.08066807561347888
+F:  [0.08066807561347877, 1, 0.006848224239528586, 0.0007675363997476578, 0.12698955749094562, 0.0029789710031446117]
+A:  [0.9928507596067918, 0.8757533867846281, 0.9929380316431377, 0.4987680822046401, 0.6189967084173742]
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+no other protected
+['sample_data_0_10_0.csv', 'sample_data_1_10_0.csv', 'sample_data_2_10_0.csv']
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education default  balance housing loan    contact  day month  duration  campaign  pdays  previous poutcome    y
+0        1    housemaid  married    primary      no     5048      no   no    unknown   18   jun       163         1     -1         0  unknown   no
+1        1  blue-collar  married  secondary      no      485     yes   no  telephone   12   may      1100         2     -1         0  unknown   no
+2        1   management  married  secondary      no     2897      no   no   cellular    2   jul       301         2     88         5  failure   no
+3        1   management   single   tertiary      no     4718     yes   no   cellular   21   nov       536         1     -1         0  unknown  yes
+4        1      retired  married    primary      no     1374      no  yes    unknown   14   may        22         3     -1         0  unknown   no
+...    ...          ...      ...        ...     ...      ...     ...  ...        ...  ...   ...       ...       ...    ...       ...      ...  ...
+27121    1  blue-collar  married    primary      no      397      no   no   cellular   22   aug       263         1     -1         0  unknown   no
+27122    1  blue-collar  married  secondary      no     1736      no  yes    unknown   18   jun        66         1     -1         0  unknown   no
+27123    1   technician  married   tertiary      no    11766     yes   no   cellular   13   apr       218         2    242         9  failure  yes
+27124    1   technician   single   tertiary      no      591     yes   no    unknown   26   may       164         1     -1         0  unknown   no
+27125    1  blue-collar  married  secondary      no     2761     yes   no   cellular   18   may       325         1     -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education default  balance housing loan    contact  day month  duration  campaign  pdays  previous poutcome    y
+0        1   technician   married  secondary      no       84      no  yes   cellular   29   jul       403         3     -1         0  unknown   no
+1        1      retired   married    primary      no     3288      no   no   cellular   19   aug       186         4     -1         0  unknown   no
+2        1     services   married    unknown      no      224     yes   no    unknown   29   may        52         3     -1         0  unknown   no
+3        1   management  divorced   tertiary      no      297      no   no   cellular   12   aug       127         1     -1         0  unknown   no
+4        1  blue-collar   married    primary      no      219      no  yes    unknown   18   jun      1574         3     -1         0  unknown  yes
+...    ...          ...       ...        ...     ...      ...     ...  ...        ...  ...   ...       ...       ...    ...       ...      ...  ...
+18080    1      student    single    unknown      no     1279      no   no  telephone   20   oct      2429         1     -1         0  unknown   no
+18081    1      unknown   married    unknown      no     1547      no   no  telephone    5   aug      1186         4     -1         0  unknown  yes
+18082    1     services    single  secondary      no      146     yes   no    unknown   19   may       104         2     -1         0  unknown   no
+18083    1   technician    single  secondary      no     1609     yes   no    unknown   30   may       288         3     -1         0  unknown   no
+18084    1   technician   married  secondary      no      473      no  yes   cellular   13   aug       112         1     -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  NeuralNet
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+age  y  
+1    0.0    15956
+     1.0     1078
+0    0.0      850
+     1.0      201
+dtype: int64
+CALC disp:  0.6690908496147885
+F:  [0.6690908496147885, 0.7183402749370542, 0.018952062430323324, 0.12796123765230494, 0.08636816216304663, 0.04746491686371485]
+A:  [0.9010277033065237, 0.9000829416643628, 0.7595943229866122, 0.6724324752080502, 0.002273501080520603]

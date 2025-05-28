@@ -1,0 +1,2 @@
+filename,Algorithm,Accuracy Gen,Accuracy Orig,Accuracy Bal Gen,Accuracy Bal Orig,K1 Dist,Disparate Impact,Disparate Impact Gen,Equal Opp. Diff,Statistical Par. Diff,Theil Index,Avg. Odds
+Original_0_0_0,NeuralNet,0.5396551724137931,0.6857386848847139,0.5,0.6770359347127226,0.00023465865205289963,0.24591247115963222,0.0,-0.1261246536533731,-0.18258483117387858,0.1732805916230977,-0.14236092235564854

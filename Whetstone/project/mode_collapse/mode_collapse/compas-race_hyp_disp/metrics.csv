@@ -1,0 +1,14 @@
+,file,DI,Stat Par,Avg Odds,Eq Opp,Theil,prec,rec,acc,bal_acc
+0,Original,0.266,-0.547,-0.149,-0.128,0.221,0.676,0.71,0.66,0.655
+1,Base,0.016,-0.003,0.039,0.06,0.237,0.7,0.68,0.67,0.67
+2,Base,0.013,-0.0,0.047,0.043,0.191,0.696,0.756,0.69,0.685
+3,Base,0.04,0.06,0.053,0.124,0.259,0.713,0.643,0.668,0.67
+4,sample_data_parallel_compas-race-VGAN-norm-d-None_race_1.csv,0.467,-0.972,-0.284,-0.278,0.25,0.725,0.654,0.679,0.682
+5,sample_data_parallel_compas-race-VGAN-norm-d-None_race_2.csv,0.342,-0.715,-0.195,-0.177,0.207,0.718,0.725,0.698,0.695
+6,sample_data_parallel_compas-race-VGAN-norm-d-None_race_3.csv,0.408,-0.796,-0.225,-0.198,0.246,0.738,0.658,0.689,0.692
+7,sample_data_parallel_compas-race-VGAN-norm-d-EqOp_race_1.csv,0.024,-0.039,0.028,0.045,0.221,0.696,0.706,0.675,0.672
+8,sample_data_parallel_compas-race-VGAN-norm-d-EqOp_race_2.csv,0.068,-0.116,0.004,0.003,0.227,0.696,0.697,0.672,0.67
+9,sample_data_parallel_compas-race-VGAN-norm-d-EqOp_race_3.csv,0.055,-0.08,0.009,0.063,0.267,0.724,0.628,0.67,0.674
+10,sample_data_parallel_compas-race-VGAN-norm-d-AvgOdd_race_1.csv,0.021,-0.027,0.036,0.004,0.22,0.678,0.711,0.662,0.658
+11,sample_data_parallel_compas-race-VGAN-norm-d-AvgOdd_race_2.csv,0.035,-0.031,0.02,0.066,0.319,0.718,0.552,0.641,0.649
+12,sample_data_parallel_compas-race-VGAN-norm-d-AvgOdd_race_3.csv,0.07,-0.111,0.001,0.025,0.25,0.702,0.66,0.665,0.665

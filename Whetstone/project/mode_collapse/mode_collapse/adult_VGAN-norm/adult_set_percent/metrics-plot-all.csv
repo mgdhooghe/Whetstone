@@ -1,0 +1,23 @@
+,file,DI,Stat Par,Avg Odds,Eq Opp,Theil,prec,rec,acc,bal_acc,config
+Original,Original,0.652,-0.534,-0.035,-0.009,0.091,0.805,0.703,0.884,0.824,Original
+Base,Base,0.024,-0.017,0.178,0.302,0.136,0.592,0.602,0.799,0.733,Base
+Base,Base,0.041,-0.033,0.155,0.248,0.13,0.582,0.635,0.797,0.743,Base
+Base,Base,0.103,-0.099,0.128,0.21,0.12,0.554,0.697,0.786,0.756,Base
+100,sample_data_parallel_adult-VGAN-norm-sp-100_sex_1.csv,0.024,0.019,0.182,0.293,0.133,0.573,0.623,0.792,0.735,sample_data_parallel_adult-VGAN-norm-sp-100_sex
+100,sample_data_parallel_adult-VGAN-norm-sp-100_sex_2.csv,0.03,0.011,0.179,0.338,0.188,0.724,0.349,0.806,0.653,sample_data_parallel_adult-VGAN-norm-sp-100_sex
+100,sample_data_parallel_adult-VGAN-norm-sp-100_sex_3.csv,0.067,0.027,0.197,0.373,0.185,0.702,0.36,0.804,0.655,sample_data_parallel_adult-VGAN-norm-sp-100_sex
+10,sample_data_parallel_adult-VGAN-norm-sp-10_sex_1.csv,0.051,-0.042,0.15,0.243,0.129,0.578,0.635,0.795,0.741,sample_data_parallel_adult-VGAN-norm-sp-10_sex
+10,sample_data_parallel_adult-VGAN-norm-sp-10_sex_2.csv,0.014,-0.011,0.174,0.288,0.136,0.598,0.602,0.801,0.735,sample_data_parallel_adult-VGAN-norm-sp-10_sex
+10,sample_data_parallel_adult-VGAN-norm-sp-10_sex_3.csv,0.037,-0.031,0.159,0.262,0.133,0.569,0.625,0.79,0.735,sample_data_parallel_adult-VGAN-norm-sp-10_sex
+25,sample_data_parallel_adult-VGAN-norm-sp-25_sex_1.csv,0.059,-0.046,0.16,0.271,0.135,0.591,0.615,0.799,0.738,sample_data_parallel_adult-VGAN-norm-sp-25_sex
+25,sample_data_parallel_adult-VGAN-norm-sp-25_sex_2.csv,0.192,-0.208,0.087,0.154,0.108,0.549,0.752,0.786,0.774,sample_data_parallel_adult-VGAN-norm-sp-25_sex
+25,sample_data_parallel_adult-VGAN-norm-sp-25_sex_3.csv,0.635,-0.634,-0.078,-0.033,0.115,0.627,0.672,0.82,0.77,sample_data_parallel_adult-VGAN-norm-sp-25_sex
+50,sample_data_parallel_adult-VGAN-norm-sp-50_sex_1.csv,0.491,-0.578,-0.042,0.019,0.105,0.563,0.754,0.794,0.781,sample_data_parallel_adult-VGAN-norm-sp-50_sex
+50,sample_data_parallel_adult-VGAN-norm-sp-50_sex_2.csv,0.066,-0.065,0.131,0.197,0.116,0.546,0.71,0.782,0.758,sample_data_parallel_adult-VGAN-norm-sp-50_sex
+50,sample_data_parallel_adult-VGAN-norm-sp-50_sex_3.csv,0.484,-0.566,-0.026,0.05,0.101,0.573,0.762,0.8,0.787,sample_data_parallel_adult-VGAN-norm-sp-50_sex
+.5,sample_data_parallel_adult-VGAN-norm-sp-.5_sex_1.csv,0.195,-0.15,0.121,0.221,0.13,0.63,0.612,0.815,0.747,sample_data_parallel_adult-VGAN-norm-sp-.5_sex
+.5,sample_data_parallel_adult-VGAN-norm-sp-.5_sex_2.csv,0.268,-0.212,0.097,0.191,0.126,0.636,0.62,0.818,0.752,sample_data_parallel_adult-VGAN-norm-sp-.5_sex
+.5,sample_data_parallel_adult-VGAN-norm-sp-.5_sex_3.csv,0.169,-0.119,0.139,0.258,0.14,0.644,0.577,0.816,0.736,sample_data_parallel_adult-VGAN-norm-sp-.5_sex
+1,sample_data_parallel_adult-VGAN-norm-sp-1_sex_1.csv,0.088,-0.069,0.142,0.233,0.128,0.614,0.625,0.81,0.748,sample_data_parallel_adult-VGAN-norm-sp-1_sex
+1,sample_data_parallel_adult-VGAN-norm-sp-1_sex_2.csv,0.116,-0.092,0.139,0.233,0.127,0.619,0.634,0.813,0.753,sample_data_parallel_adult-VGAN-norm-sp-1_sex
+1,sample_data_parallel_adult-VGAN-norm-sp-1_sex_3.csv,0.076,-0.062,0.158,0.272,0.132,0.584,0.625,0.797,0.739,sample_data_parallel_adult-VGAN-norm-sp-1_sex

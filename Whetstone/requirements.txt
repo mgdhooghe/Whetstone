@@ -1,0 +1,7 @@
+matplotlib
+pandas
+jinja2
+scikit-learn
+scikit-learn-intelex
+aif360
+

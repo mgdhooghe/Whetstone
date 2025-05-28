@@ -1,0 +1,10 @@
+,file,DI,Stat Par,Avg Odds,Eq Opp,Theil,prec,rec,acc,bal_acc,config
+Original,Original,0.648,-0.53,-0.032,-0.005,0.091,0.806,0.704,0.885,0.824,Original
+Base,Base,0.009,-0.009,0.15,0.225,0.121,0.517,0.702,0.764,0.743,Base
+Base,Base,0.061,0.069,0.154,0.188,0.113,0.512,0.742,0.761,0.754,Base
+Base,Base,0.046,0.05,0.159,0.216,0.117,0.512,0.721,0.761,0.747,Base
+Base,Base,0.036,0.044,0.135,0.156,0.109,0.487,0.771,0.742,0.752,Base
+Base,Base,0.048,0.056,0.155,0.198,0.111,0.504,0.756,0.756,0.756,Base
+Base,Base,0.053,0.055,0.172,0.243,0.12,0.524,0.712,0.769,0.75,Base
+sample_data_parallel_adult-WGAN-gmm-d-None_sex,sample_data_parallel_adult-WGAN-gmm-d-None_sex_1.csv,0.558,-0.737,-0.111,-0.069,0.1,0.54,0.788,0.781,0.783,sample_data_parallel_adult-WGAN-gmm-d-None_sex
+sample_data_parallel_adult-WGAN-gmm-d-None_sex,sample_data_parallel_adult-WGAN-gmm-d-None_sex_2.csv,0.53,-0.77,-0.108,-0.05,0.09,0.516,0.84,0.766,0.79,sample_data_parallel_adult-WGAN-gmm-d-None_sex

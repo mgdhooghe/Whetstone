@@ -1,0 +1,23 @@
+,file,DI,Stat Par,Avg Odds,Eq Opp,Theil,prec,rec,acc,bal_acc,config
+Original,Original,0.61,-0.296,-0.062,-0.069,0.13,0.592,0.361,0.851,0.655,Original
+Base,Base,0.025,0.02,0.092,0.132,0.115,0.386,0.593,0.774,0.701,Base
+Base,Base,0.017,-0.015,0.087,0.131,0.106,0.373,0.667,0.756,0.72,Base
+Base,Base,0.042,0.038,0.102,0.146,0.112,0.363,0.638,0.751,0.706,Base
+0,sample_data_parallel_medical-VGAN-norm-b-0_RACE_1.csv,0.033,0.035,0.095,0.128,0.104,0.342,0.702,0.724,0.715,sample_data_parallel_medical-VGAN-norm-b-0_RACE
+0,sample_data_parallel_medical-VGAN-norm-b-0_RACE_2.csv,0.03,-0.024,0.073,0.102,0.109,0.394,0.629,0.776,0.717,sample_data_parallel_medical-VGAN-norm-b-0_RACE
+0,sample_data_parallel_medical-VGAN-norm-b-0_RACE_3.csv,0.033,0.025,0.095,0.138,0.116,0.392,0.584,0.778,0.701,sample_data_parallel_medical-VGAN-norm-b-0_RACE
+100,sample_data_parallel_medical-VGAN-norm-b-100_RACE_1.csv,0.016,0.009,0.105,0.165,0.109,0.38,0.641,0.764,0.715,sample_data_parallel_medical-VGAN-norm-b-100_RACE
+100,sample_data_parallel_medical-VGAN-norm-b-100_RACE_2.csv,0.049,0.038,0.098,0.138,0.116,0.385,0.589,0.773,0.7,sample_data_parallel_medical-VGAN-norm-b-100_RACE
+100,sample_data_parallel_medical-VGAN-norm-b-100_RACE_3.csv,0.021,0.009,0.089,0.135,0.119,0.42,0.541,0.798,0.695,sample_data_parallel_medical-VGAN-norm-b-100_RACE
+1,sample_data_parallel_medical-VGAN-norm-b-1_RACE_1.csv,0.026,0.023,0.103,0.149,0.107,0.381,0.658,0.763,0.721,sample_data_parallel_medical-VGAN-norm-b-1_RACE
+1,sample_data_parallel_medical-VGAN-norm-b-1_RACE_2.csv,0.03,0.028,0.096,0.135,0.111,0.36,0.646,0.748,0.707,sample_data_parallel_medical-VGAN-norm-b-1_RACE
+1,sample_data_parallel_medical-VGAN-norm-b-1_RACE_3.csv,0.02,0.017,0.098,0.149,0.113,0.379,0.611,0.767,0.704,sample_data_parallel_medical-VGAN-norm-b-1_RACE
+25,sample_data_parallel_medical-VGAN-norm-b-25_RACE_1.csv,0.026,0.012,0.09,0.127,0.11,0.383,0.632,0.768,0.713,sample_data_parallel_medical-VGAN-norm-b-25_RACE
+25,sample_data_parallel_medical-VGAN-norm-b-25_RACE_2.csv,0.068,0.05,0.115,0.173,0.115,0.405,0.579,0.786,0.704,sample_data_parallel_medical-VGAN-norm-b-25_RACE
+25,sample_data_parallel_medical-VGAN-norm-b-25_RACE_3.csv,0.028,0.023,0.098,0.146,0.115,0.375,0.601,0.765,0.7,sample_data_parallel_medical-VGAN-norm-b-25_RACE
+50,sample_data_parallel_medical-VGAN-norm-b-50_RACE_1.csv,0.104,0.075,0.128,0.196,0.118,0.408,0.556,0.79,0.697,sample_data_parallel_medical-VGAN-norm-b-50_RACE
+50,sample_data_parallel_medical-VGAN-norm-b-50_RACE_2.csv,0.026,0.003,0.096,0.159,0.122,0.429,0.512,0.804,0.687,sample_data_parallel_medical-VGAN-norm-b-50_RACE
+50,sample_data_parallel_medical-VGAN-norm-b-50_RACE_3.csv,0.014,0.001,0.088,0.126,0.108,0.361,0.663,0.747,0.713,sample_data_parallel_medical-VGAN-norm-b-50_RACE
+5,sample_data_parallel_medical-VGAN-norm-b-5_RACE_1.csv,0.059,0.05,0.105,0.146,0.11,0.384,0.63,0.769,0.713,sample_data_parallel_medical-VGAN-norm-b-5_RACE
+5,sample_data_parallel_medical-VGAN-norm-b-5_RACE_2.csv,0.042,-0.038,0.081,0.132,0.11,0.364,0.649,0.751,0.71,sample_data_parallel_medical-VGAN-norm-b-5_RACE
+5,sample_data_parallel_medical-VGAN-norm-b-5_RACE_3.csv,0.198,0.097,0.144,0.241,0.13,0.47,0.419,0.823,0.662,sample_data_parallel_medical-VGAN-norm-b-5_RACE

@@ -1,0 +1,1251 @@
+TEST FILE:  bank/bank-full-SPLIT-TEST-20-age.csv
+TRAIN FILE:  bank/bank-full-SPLIT-TRAIN-60-age.csv
+ALL TEST FILE:  bank/bank-full-SPLIT-ALL-40-age.csv
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education  ... pdays  previous poutcome    y
+0        1    housemaid  married    primary  ...    -1         0  unknown   no
+1        1  blue-collar  married  secondary  ...    -1         0  unknown   no
+2        1   management  married  secondary  ...    88         5  failure   no
+3        1   management   single   tertiary  ...    -1         0  unknown  yes
+4        1      retired  married    primary  ...    -1         0  unknown   no
+...    ...          ...      ...        ...  ...   ...       ...      ...  ...
+27121    1  blue-collar  married    primary  ...    -1         0  unknown   no
+27122    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+27123    1   technician  married   tertiary  ...   242         9  failure  yes
+27124    1   technician   single   tertiary  ...    -1         0  unknown   no
+27125    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   technician   married  secondary  ...    -1         0  unknown   no
+1        1      retired   married    primary  ...    -1         0  unknown   no
+2        1     services   married    unknown  ...    -1         0  unknown   no
+3        1   management  divorced   tertiary  ...    -1         0  unknown   no
+4        1  blue-collar   married    primary  ...    -1         0  unknown  yes
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+18080    1      student    single    unknown  ...    -1         0  unknown   no
+18081    1      unknown   married    unknown  ...    -1         0  unknown  yes
+18082    1     services    single  secondary  ...    -1         0  unknown   no
+18083    1   technician    single  secondary  ...    -1         0  unknown   no
+18084    1   technician   married  secondary  ...    -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.6781808241511276
+F:  [0.6781808241511276, 0.7131188048046331, 0.04602643733078515, 0.146476733665372, 0.07765053736957402, 0.0591741499378724]
+A:  [0.9065013404825737, 0.9084876969864528, 0.6951621058812656, 0.7062994570884681, 0.0026201645316301834]
+CALC disp:  0.6875272429138188
+F:  [0.6875272429138188, 0.6909911620614262, 0.05685618729096992, 0.15242040684959068, 0.07976423840842849, 0.06870114593370202]
+A:  [0.9044906166219839, 0.9055017970693945, 0.6931949783333242, 0.6992790911881372, 0.002676988606881165]
+CALC disp:  0.6954044256981198
+F:  [0.6954044256981198, 0.7266677897574124, 0.06282847587195411, 0.1568133671650375, 0.07892660306520367, 0.07289809566363764]
+A:  [0.9038203753351206, 0.9068288636991982, 0.6874295221369813, 0.701875405218594, 0.0028079806430269883]
+CALC disp:  0.693556025204493
+F:  [0.693556025204493, 0.7474921636167088, 0.06824335085204652, 0.158376256944889, 0.07862794766747108, 0.07511340716943188]
+A:  [0.9022564789991063, 0.9065523914846558, 0.6819866647093258, 0.7037686942127119, 0.0033871595964168745]
+CALC disp:  0.7020765192304467
+F:  [0.7020765192304467, 0.7543859649122807, 0.08233795190316928, 0.16366198592907655, 0.07846863051209145, 0.08304342914493547]
+A:  [0.9032618409294012, 0.9068841581421068, 0.6829702284832965, 0.7041615424308036, 0.0035034863815209556]
+no other protected
+['sample_data_bank_tab_split_age_60_0_0.csv', 'sample_data_bank_tab_split_age_60_0_1.csv', 'sample_data_bank_tab_split_age_60_0_2.csv', 'sample_data_bank_tab_split_age_60_0_3.csv', 'sample_data_bank_tab_split_age_60_0_4.csv']
+0/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_0.csv
+age
+inbank
+       age            job   marital  education  ... pdays  previous poutcome   y
+0        1     technician   married  secondary  ...  -1.0       0.0  unknown  no
+1        1        unknown   married    primary  ...  -1.0       0.0  unknown  no
+2        1     technician  divorced   tertiary  ...  -1.0       0.0  unknown  no
+3        1    blue-collar   married    primary  ...  -1.0       0.0  unknown  no
+4        1         admin.    single  secondary  ...  -1.0       0.0  unknown  no
+...    ...            ...       ...        ...  ...   ...       ...      ...  ..
+27122    1       services   married  secondary  ...  -1.0       0.0  unknown  no
+27123    1     management    single   tertiary  ...  -1.0       0.0  unknown  no
+27124    1     unemployed   married   tertiary  ...  -1.0       0.0  unknown  no
+27125    1  self-employed   married   tertiary  ...  -1.0       0.0  unknown  no
+27126    1  self-employed   married   tertiary  ...  -1.0       0.0  failure  no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.50715140737177
+F:  [0.50715140737177, 0.8158708721791409, -0.02818920210224557, 0.039568425694086716, 0.10246685812292966, -0.008874555254378243]
+A:  [0.8930965147453083, 0.8928946640862593, 0.6055770485726152, 0.5994873870108212, 0.010391758901642744]
+CALC disp:  0.44636640867708144
+F:  [0.44636640867708144, 0.784914179712981, -0.038620799490364704, 0.03142827235214465, 0.10257156913414753, -0.01774936802229586]
+A:  [0.894325290437891, 0.8927287807575338, 0.611910434227287, 0.5991884707859663, 0.009699489035933942]
+CALC disp:  0.4835470670858718
+F:  [0.4835470670858718, 0.9038190334328257, -0.02412804586717629, 0.03726671021308812, 0.1013690019049292, -0.010535799609651786]
+A:  [0.8925379803395889, 0.8937793751727952, 0.6068698430016819, 0.603883058042159, 0.009648608642320016]
+CALC disp:  0.4946837523761115
+F:  [0.4946837523761115, 0.9132621764200711, -0.02341137123745818, 0.037183650273751485, 0.10239344690526117, -0.009065082052199597]
+A:  [0.8935433422698839, 0.8932817251866187, 0.6162964961539085, 0.5992965931984714, 0.009150071387182837]
+CALC disp:  0.4759394093421496
+F:  [0.4759394093421496, 0.8339134367687255, -0.03655040611562349, 0.03577470346149365, 0.10150516062000439, -0.015145578828741613]
+A:  [0.8973413762287757, 0.8938346696157036, 0.6224793643182114, 0.6030944317800995, 0.008471757364260812]
+1/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_1.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   management  divorced   tertiary  ...  -1.0       0.0  unknown   no
+1        1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+2        1   technician   married  secondary  ...  -1.0       0.0  unknown  yes
+3        1   management   married    primary  ...  -1.0       0.0  unknown   no
+4        1  blue-collar   married    primary  ...  -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+27122    0   unemployed   married    primary  ...  -1.0       0.0  failure   no
+27123    1  blue-collar  divorced  secondary  ...  -1.0       0.0  unknown  yes
+27124    1   management   married   tertiary  ...  -1.0       0.0  unknown   no
+27125    1      retired   married  secondary  ...  -1.0       0.0  unknown   no
+27126    1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.033079967130871024
+F:  [0.033079967130871024, 0.7927425530661535, -0.12637362637362637, -0.0013671654843332853, 0.10440392301246883, -0.06613781391048816]
+A:  [0.8911974977658623, 0.8900746474979264, 0.611102089511126, 0.5935858742618171, 0.006074705828058559]
+CALC disp:  0.00045790771398379615
+F:  [0.00045790771398379615, 0.8575588510850207, -0.13553113553113552, 1.960594398598553e-05, 0.1031013165937324, -0.06944325157361027]
+A:  [0.890638963360143, 0.8910699474702792, 0.6214059845623622, 0.5988641035484512, 0.005290159738475085]
+CALC disp:  0.13378056662933024
+F:  [0.13378056662933024, 0.7232512315270936, -0.14492753623188406, -0.0055840074482478436, 0.10388817176351076, -0.07528353524381648]
+A:  [0.8901921358355674, 0.8906828863699198, 0.6101360157419423, 0.595365181191678, 0.0056242638603087045]
+CALC disp:  0.13378056662933024
+F:  [0.13378056662933024, 0.8768737241178186, -0.15249243510113075, -0.0055840074482478436, 0.10330771593578979, -0.07811764643059735]
+A:  [0.8934316353887399, 0.8914570085706387, 0.6167021766148031, 0.5972384201147758, 0.0064090700968602735]
+CALC disp:  0.08470484623066576
+F:  [0.08470484623066576, 0.8739285714285714, -0.14628125497690714, -0.003610174848154478, 0.10353036340776087, -0.07481831129649608]
+A:  [0.8913092046470062, 0.8906828863699198, 0.6147063996541909, 0.5972100392762395, 0.006739007225233667]
+2/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_2.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1  blue-collar  divorced    primary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1   management    single   tertiary  ...  854.0       3.0    other   no
+4        1   technician    single  secondary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27123    1   management  divorced   tertiary  ...   -1.0       0.0  unknown  yes
+27124    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27125    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+27126    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.14181580542124705
+F:  [0.14181580542124705, 0.7309065812809463, -0.11108456760630674, -0.0055031259471318705, 0.1061456458620677, -0.062280426874775585]
+A:  [0.8895218945487042, 0.8890793475255737, 0.6163519684267198, 0.5860528184273854, 0.00426439084695221]
+CALC disp:  0.19692956515030724
+F:  [0.19692956515030724, 0.8434650173659479, -0.12151616499442586, -0.007699606104855268, 0.10629394121586097, -0.06690877970944412]
+A:  [0.8911974977658623, 0.8888028753110312, 0.6141906499687495, 0.585691280873706, 0.00609638394626769]
+CALC disp:  0.3039757636606679
+F:  [0.3039757636606679, 0.6035358284747038, -0.12669214843127885, -0.0116350943939624, 0.10729615828746107, -0.07014983408516191]
+A:  [0.8887399463806971, 0.887973458667404, 0.6092827365850464, 0.5817368889700164, 0.005285453837537297]
+CALC disp:  0.3158439248958157
+F:  [0.3158439248958157, 0.5430474333983106, -0.12239210065297022, -0.012738333709253574, 0.1070772723015476, -0.07022457068119387]
+A:  [0.8887399463806971, 0.8873099253525021, 0.6069450959387912, 0.5838209717764843, 0.004368932462290977]
+CALC disp:  0.21739865015072435
+F:  [0.21739865015072435, 0.7950087822014051, -0.11880872750437967, -0.00819360886443378, 0.10722721862872242, -0.06529259377281997]
+A:  [0.8917560321715817, 0.8882499308819464, 0.6230805109173639, 0.58168845806046, 0.006120660748541712]
+3/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_3.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1   technician   married  secondary  ...  183.0      11.0  failure   no
+1        0       admin.    single  secondary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1     services   married  secondary  ...   -1.0       0.0  unknown  yes
+4        1      retired   married   tertiary  ...   -1.0      58.0  failure   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+27123    1   technician    single   tertiary  ...   -1.0       0.0  unknown   no
+27124    1  blue-collar   married    primary  ...  854.0      58.0  failure   no
+27125    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar   married    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.6924587950032227
+F:  [0.6924587950032227, 0.851191632952317, -0.14206083771301162, -0.02142337589331328, 0.1100880819622575, -0.07762801236719352]
+A:  [0.8908623771224308, 0.8880287531103124, 0.6132468201465644, 0.5672143191895546, 0.008987397082304675]
+CALC disp:  0.5836625668869316
+F:  [0.5836625668869316, 0.861110422912073, -0.14333492594362157, -0.018674186858833965, 0.108731190837145, -0.07754637702730693]
+A:  [0.8910857908847185, 0.8892452308542992, 0.6173726749026806, 0.57241280690222, 0.009213970204699478]
+CALC disp:  0.6877182754657002
+F:  [0.6877182754657002, 0.8139960729807841, -0.1485109093804746, -0.020953726955894002, 0.10948958927496354, -0.07970785955938174]
+A:  [0.892426273458445, 0.8890240530826652, 0.6185346570504628, 0.5688028323070656, 0.008461682470282793]
+CALC disp:  0.6245384979923515
+F:  [0.6245384979923515, 0.7512414969568056, -0.135849657588788, -0.018992071266880246, 0.10976399992124987, -0.07422714671453053]
+A:  [0.8937667560321716, 0.8886369919823057, 0.6272944321031501, 0.5679687049613257, 0.009746841425736657]
+CALC disp:  0.5940337581054103
+F:  [0.5940337581054103, 0.8384749540892343, -0.13951266125179168, -0.01809930259813948, 0.10980863392480213, -0.07468690643354951]
+A:  [0.890638963360143, 0.8885264030964888, 0.619917828992155, 0.5679060836325012, 0.00847443310570875]
+4/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_4.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1      retired   married  secondary  ...   -1.0       0.0  unknown   no
+2        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+3        1   technician    single   tertiary  ...   -1.0       0.0  unknown  yes
+4        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       1.0  failure   no
+27123    1     services   married  secondary  ...  172.0       1.0  failure   no
+27124    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27125    1   management    single  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar    single    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  RandomForest
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.14829624248342266
+F:  [0.14829624248342266, 0.857429718875502, -0.13083293518076128, -0.005632715092566305, 0.10615222914792723, -0.06820032099759363]
+A:  [0.8946604110813227, 0.8894664086259331, 0.619117831719503, 0.5854520561517998, 0.008542577432036845]
+CALC disp:  0.13130206337434047
+F:  [0.13130206337434047, 0.8366522366522366, -0.13019589106545626, -0.005033477009712593, 0.10530590026925205, -0.06843643640038202]
+A:  [0.8973413762287757, 0.8904064141553774, 0.6326644559402219, 0.5884441482262243, 0.00954802671582465]
+CALC disp:  0.24146233213743384
+F:  [0.24146233213743384, 0.955588341092384, -0.14795349577958272, -0.009086377533174539, 0.10501759036269889, -0.07679030437424315]
+A:  [0.8944369973190348, 0.8912358307990047, 0.6237999734712827, 0.5887088239607907, 0.009334973760941976]
+CALC disp:  0.1896289248334918
+F:  [0.1896289248334918, 0.8150826782325834, -0.1496257365822583, -0.007347369401790808, 0.10524845607326004, -0.07609374599005876]
+A:  [0.8977882037533512, 0.8903511197124689, 0.6305138612548083, 0.5888228060250478, 0.009039211784445679]
+CALC disp:  0.3605569664846977
+F:  [0.3605569664846977, 0.7706037309822052, -0.15249243510113075, -0.013948986786040611, 0.1057398965260388, -0.08112049252545278]
+A:  [0.8948838248436104, 0.889908764169201, 0.6260577441747358, 0.5869324468568058, 0.009287462183620575]
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education  ... pdays  previous poutcome    y
+0        1    housemaid  married    primary  ...    -1         0  unknown   no
+1        1  blue-collar  married  secondary  ...    -1         0  unknown   no
+2        1   management  married  secondary  ...    88         5  failure   no
+3        1   management   single   tertiary  ...    -1         0  unknown  yes
+4        1      retired  married    primary  ...    -1         0  unknown   no
+...    ...          ...      ...        ...  ...   ...       ...      ...  ...
+27121    1  blue-collar  married    primary  ...    -1         0  unknown   no
+27122    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+27123    1   technician  married   tertiary  ...   242         9  failure  yes
+27124    1   technician   single   tertiary  ...    -1         0  unknown   no
+27125    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   technician   married  secondary  ...    -1         0  unknown   no
+1        1      retired   married    primary  ...    -1         0  unknown   no
+2        1     services   married    unknown  ...    -1         0  unknown   no
+3        1   management  divorced   tertiary  ...    -1         0  unknown   no
+4        1  blue-collar   married    primary  ...    -1         0  unknown  yes
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+18080    1      student    single    unknown  ...    -1         0  unknown   no
+18081    1      unknown   married    unknown  ...    -1         0  unknown  yes
+18082    1     services    single  secondary  ...    -1         0  unknown   no
+18083    1   technician    single  secondary  ...    -1         0  unknown   no
+18084    1   technician   married  secondary  ...    -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.7917671979486359, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.9032618409294012, 0.903179430467238, 0.6485830120938292, 0.6549173546430519, 0.0024006473294242003]
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.8126798446684598, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.9016979445933869, 0.903179430467238, 0.6476974965973079, 0.6549173546430519, 0.003503764241927515]
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.823191038449894, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.9031501340482574, 0.903179430467238, 0.6510055838584625, 0.6549173546430519, 0.0031471007421704274]
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.8172804532577904, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.8992403932082216, 0.903179430467238, 0.6442344531860253, 0.6549173546430519, 0.00415332175753754]
+CALC disp:  0.7840495479628977
+F:  [0.7840495479628977, 0.8228474297213245, 0.19222806179327917, 0.17158077643336486, 0.0889459822055158, 0.1361494585669462]
+A:  [0.9005808757819481, 0.903179430467238, 0.6470649855283642, 0.6549173546430519, 0.0027426298391846626]
+no other protected
+['sample_data_bank_tab_split_age_60_0_0.csv', 'sample_data_bank_tab_split_age_60_0_1.csv', 'sample_data_bank_tab_split_age_60_0_2.csv', 'sample_data_bank_tab_split_age_60_0_3.csv', 'sample_data_bank_tab_split_age_60_0_4.csv']
+0/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_0.csv
+age
+inbank
+       age            job   marital  education  ... pdays  previous poutcome   y
+0        1     technician   married  secondary  ...  -1.0       0.0  unknown  no
+1        1        unknown   married    primary  ...  -1.0       0.0  unknown  no
+2        1     technician  divorced   tertiary  ...  -1.0       0.0  unknown  no
+3        1    blue-collar   married    primary  ...  -1.0       0.0  unknown  no
+4        1         admin.    single  secondary  ...  -1.0       0.0  unknown  no
+...    ...            ...       ...        ...  ...   ...       ...      ...  ..
+27122    1       services   married  secondary  ...  -1.0       0.0  unknown  no
+27123    1     management    single   tertiary  ...  -1.0       0.0  unknown  no
+27124    1     unemployed   married   tertiary  ...  -1.0       0.0  unknown  no
+27125    1  self-employed   married   tertiary  ...  -1.0       0.0  unknown  no
+27126    1  self-employed   married   tertiary  ...  -1.0       0.0  failure  no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  1.0
+F:  [1, 0.8848982245154999, -0.08807134894091416, -0.014030762005400963, 0.11650596844380434, -0.04669315478541771]
+A:  [0.8933199285075961, 0.8872546309095936, 0.597250976944269, 0.5347984297553826, 0.011512561248604001]
+CALC disp:  1.0
+F:  [1, 0.945644362311029, -0.08807134894091416, -0.014030762005400963, 0.11650596844380434, -0.04669315478541771]
+A:  [0.8936550491510277, 0.8872546309095936, 0.5974413564340519, 0.5347984297553826, 0.009573070616788788]
+CALC disp:  1.0
+F:  [1, 1, -0.08807134894091416, -0.014030762005400963, 0.11650596844380434, -0.04669315478541771]
+A:  [0.8913092046470062, 0.8872546309095936, 0.5904733724801036, 0.5347984297553826, 0.009959474970438534]
+CALC disp:  1.0
+F:  [1, 0.8941536157733824, -0.08807134894091416, -0.014030762005400963, 0.11650596844380434, -0.04669315478541771]
+A:  [0.8932082216264522, 0.8872546309095936, 0.6000051808770752, 0.5347984297553826, 0.010607389139455574]
+CALC disp:  1.0
+F:  [1, 0.8904024767801858, -0.08807134894091416, -0.014030762005400963, 0.11650596844380434, -0.04669315478541771]
+A:  [0.8928731009830205, 0.8872546309095936, 0.5990097545979397, 0.5347984297553826, 0.012085980695184646]
+1/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_1.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   management  divorced   tertiary  ...  -1.0       0.0  unknown   no
+1        1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+2        1   technician   married  secondary  ...  -1.0       0.0  unknown  yes
+3        1   management   married    primary  ...  -1.0       0.0  unknown   no
+4        1  blue-collar   married    primary  ...  -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+27122    0   unemployed   married    primary  ...  -1.0       0.0  failure   no
+27123    1  blue-collar  divorced  secondary  ...  -1.0       0.0  unknown  yes
+27124    1   management   married   tertiary  ...  -1.0       0.0  unknown   no
+27125    1      retired   married  secondary  ...  -1.0       0.0  unknown   no
+27126    1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.9519067611177147
+F:  [0.9519067611177147, 0.9564625850340136, -0.11371237458193979, -0.01883248670286896, 0.11488004014102861, -0.06053383329509592]
+A:  [0.8903038427167114, 0.8868675698092342, 0.605085328567447, 0.5440085297589221, 0.006218285152580779]
+CALC disp:  0.9519067611177147
+F:  [0.9519067611177147, 0.9598920316301703, -0.11371237458193979, -0.01883248670286896, 0.11488004014102861, -0.06053383329509592]
+A:  [0.8920911528150134, 0.8868675698092342, 0.6143649876719448, 0.5440085297589221, 0.007953409523915324]
+CALC disp:  0.9519067611177147
+F:  [0.9519067611177147, 1, -0.11371237458193979, -0.01883248670286896, 0.11488004014102861, -0.06053383329509592]
+A:  [0.8899687220732797, 0.8868675698092342, 0.6115823927733728, 0.5440085297589221, 0.005800049460915739]
+CALC disp:  0.9519067611177147
+F:  [0.9519067611177147, 1, -0.11371237458193979, -0.01883248670286896, 0.11488004014102861, -0.06053383329509592]
+A:  [0.8914209115281502, 0.8868675698092342, 0.5982468523792751, 0.5440085297589221, 0.006656736825930245]
+CALC disp:  0.9519067611177147
+F:  [0.9519067611177147, 1, -0.11371237458193979, -0.01883248670286896, 0.11488004014102861, -0.06053383329509592]
+A:  [0.8929848078641645, 0.8868675698092342, 0.6188081127397038, 0.5440085297589221, 0.005391974395205862]
+2/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_2.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1  blue-collar  divorced    primary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1   management    single   tertiary  ...  854.0       3.0    other   no
+4        1   technician    single  secondary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27123    1   management  divorced   tertiary  ...   -1.0       0.0  unknown  yes
+27124    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27125    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+27126    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  1.0
+F:  [1, 0.862345075016308, -0.10925306577480491, -0.017142186215803688, 0.11449752297911603, -0.057776139186615054]
+A:  [0.8853887399463807, 0.8885264030964888, 0.5906185738128111, 0.5433079758383474, 0.005266281883208635]
+CALC disp:  1.0
+F:  [1, 0.958459139975924, -0.10925306577480491, -0.017142186215803688, 0.11449752297911603, -0.057776139186615054]
+A:  [0.8881814119749777, 0.8885264030964888, 0.6007824824108077, 0.5433079758383474, 0.006020242639710809]
+CALC disp:  1.0
+F:  [1, 0.9545071563597083, -0.10925306577480491, -0.017142186215803688, 0.11449752297911603, -0.057776139186615054]
+A:  [0.8918677390527256, 0.8885264030964888, 0.603274267806664, 0.5433079758383474, 0.004343493840134964]
+CALC disp:  1.0
+F:  [1, 0.9087122526900382, -0.10925306577480491, -0.017142186215803688, 0.11449752297911603, -0.057776139186615054]
+A:  [0.8881814119749777, 0.8885264030964888, 0.5937695604720421, 0.5433079758383474, 0.00616114763249637]
+CALC disp:  1.0
+F:  [1, 1, -0.10925306577480491, -0.017142186215803688, 0.11449752297911603, -0.057776139186615054]
+A:  [0.8910857908847185, 0.8885264030964888, 0.600880317257501, 0.5433079758383474, 0.004943312670937753]
+3/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_3.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1   technician   married  secondary  ...  183.0      11.0  failure   no
+1        0       admin.    single  secondary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1     services   married  secondary  ...   -1.0       0.0  unknown  yes
+4        1      retired   married   tertiary  ...   -1.0      58.0  failure   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+27123    1   technician    single   tertiary  ...   -1.0       0.0  unknown   no
+27124    1  blue-collar   married    primary  ...  854.0      58.0  failure   no
+27125    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar   married    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  1.0
+F:  [1, 0.8806110257723161, -0.08138238573021182, -0.012445696841610896, 0.11689964872039386, -0.042856547195814575]
+A:  [0.8907506702412868, 0.887420514238319, 0.6027863321894011, 0.5324325509692042, 0.008546835830128899]
+CALC disp:  1.0
+F:  [1, 0.801653631916226, -0.08193979933110368, -0.012504402958788305, 0.11683750032108993, -0.0431352539962605]
+A:  [0.892426273458445, 0.8874758086812276, 0.612136515656859, 0.5326688458652344, 0.009987796391262755]
+CALC disp:  1.0
+F:  [1, 0.7062237762237762, -0.08138238573021182, -0.012445696841610896, 0.11689964872039386, -0.042856547195814575]
+A:  [0.892426273458445, 0.887420514238319, 0.6153355863536609, 0.5324325509692042, 0.00796618486314257]
+CALC disp:  1.0
+F:  [1, 0.9083116883116883, -0.08193979933110368, -0.012504402958788305, 0.11683750032108993, -0.0431352539962605]
+A:  [0.8934316353887399, 0.8874758086812276, 0.6103087863672689, 0.5326688458652344, 0.009923254423688726]
+CALC disp:  1.0
+F:  [1, 0.7693151887620719, -0.08193979933110368, -0.012504402958788305, 0.11683750032108993, -0.0431352539962605]
+A:  [0.8926496872207328, 0.8874758086812276, 0.6126634158790729, 0.5326688458652344, 0.007959165946105748]
+4/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_4.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1      retired   married  secondary  ...   -1.0       0.0  unknown   no
+2        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+3        1   technician    single   tertiary  ...   -1.0       0.0  unknown  yes
+4        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       1.0  failure   no
+27123    1     services   married  secondary  ...  172.0       1.0  failure   no
+27124    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27125    1   management    single  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar    single    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LogReg
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  1.0
+F:  [1, 0.949545686091005, -0.11148272017837235, -0.017846659621932607, 0.11443531669144562, -0.059153433579999824]
+A:  [0.8939901697944593, 0.8883052253248549, 0.611923951010302, 0.5440026701071701, 0.009117446940596227]
+CALC disp:  1.0
+F:  [1, 0.9516062884483937, -0.11148272017837235, -0.017846659621932607, 0.11443531669144562, -0.059153433579999824]
+A:  [0.8944369973190348, 0.8883052253248549, 0.6121779192642702, 0.5440026701071701, 0.009108571399478257]
+CALC disp:  1.0
+F:  [1, 0.9537020905923345, -0.11148272017837235, -0.017846659621932607, 0.11443531669144562, -0.059153433579999824]
+A:  [0.8941018766756033, 0.8883052253248549, 0.6163958084626608, 0.5440026701071701, 0.009460912085149075]
+CALC disp:  1.0
+F:  [1, 0.9505385339328662, -0.11148272017837235, -0.017846659621932607, 0.11443531669144562, -0.059153433579999824]
+A:  [0.892426273458445, 0.8883052253248549, 0.6090312596719282, 0.5440026701071701, 0.009437857970318403]
+CALC disp:  1.0
+F:  [1, 0.9458944318788279, -0.11148272017837235, -0.017846659621932607, 0.11443531669144562, -0.059153433579999824]
+A:  [0.8933199285075961, 0.8883052253248549, 0.6047300703011009, 0.5440026701071701, 0.011747067529779318]
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education  ... pdays  previous poutcome    y
+0        1    housemaid  married    primary  ...    -1         0  unknown   no
+1        1  blue-collar  married  secondary  ...    -1         0  unknown   no
+2        1   management  married  secondary  ...    88         5  failure   no
+3        1   management   single   tertiary  ...    -1         0  unknown  yes
+4        1      retired  married    primary  ...    -1         0  unknown   no
+...    ...          ...      ...        ...  ...   ...       ...      ...  ...
+27121    1  blue-collar  married    primary  ...    -1         0  unknown   no
+27122    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+27123    1   technician  married   tertiary  ...   242         9  failure  yes
+27124    1   technician   single   tertiary  ...    -1         0  unknown   no
+27125    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   technician   married  secondary  ...    -1         0  unknown   no
+1        1      retired   married    primary  ...    -1         0  unknown   no
+2        1     services   married    unknown  ...    -1         0  unknown   no
+3        1   management  divorced   tertiary  ...    -1         0  unknown   no
+4        1  blue-collar   married    primary  ...    -1         0  unknown  yes
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+18080    1      student    single    unknown  ...    -1         0  unknown   no
+18081    1      unknown   married    unknown  ...    -1         0  unknown  yes
+18082    1     services    single  secondary  ...    -1         0  unknown   no
+18083    1   technician    single  secondary  ...    -1         0  unknown   no
+18084    1   technician   married  secondary  ...    -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8234944074916514, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.8968945487042002, 0.9020735416090683, 0.63213428083129, 0.6471166932481778, 0.0039659275719291665]
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8303979254695995, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.9028150134048257, 0.9020735416090683, 0.6470870962304878, 0.6471166932481778, 0.0027582374842267015]
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8355444997236042, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.9003574620196604, 0.9020735416090683, 0.6390667108880709, 0.6471166932481778, 0.0031876919296791226]
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.799513048771209, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.9020330652368186, 0.9020735416090683, 0.6478872499179911, 0.6471166932481778, 0.00402229964066209]
+CALC disp:  0.7637852898585757
+F:  [0.7637852898585759, 0.8202094447737601, 0.13847746456442106, 0.1482513788117502, 0.09074482535010923, 0.10545420920561979]
+A:  [0.8982350312779267, 0.9020735416090683, 0.6345505093617075, 0.6471166932481778, 0.0037617408999053763]
+no other protected
+['sample_data_bank_tab_split_age_60_0_0.csv', 'sample_data_bank_tab_split_age_60_0_1.csv', 'sample_data_bank_tab_split_age_60_0_2.csv', 'sample_data_bank_tab_split_age_60_0_3.csv', 'sample_data_bank_tab_split_age_60_0_4.csv']
+0/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_0.csv
+age
+inbank
+       age            job   marital  education  ... pdays  previous poutcome   y
+0        1     technician   married  secondary  ...  -1.0       0.0  unknown  no
+1        1        unknown   married    primary  ...  -1.0       0.0  unknown  no
+2        1     technician  divorced   tertiary  ...  -1.0       0.0  unknown  no
+3        1    blue-collar   married    primary  ...  -1.0       0.0  unknown  no
+4        1         admin.    single  secondary  ...  -1.0       0.0  unknown  no
+...    ...            ...       ...        ...  ...   ...       ...      ...  ..
+27122    1       services   married  secondary  ...  -1.0       0.0  unknown  no
+27123    1     management    single   tertiary  ...  -1.0       0.0  unknown  no
+27124    1     unemployed   married   tertiary  ...  -1.0       0.0  unknown  no
+27125    1  self-employed   married   tertiary  ...  -1.0       0.0  unknown  no
+27126    1  self-employed   married   tertiary  ...  -1.0       0.0  failure  no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.32469077069457664
+F:  [0.32469077069457664, 0.9201468649971757, -0.050804268195572544, -0.003202304184377649, 0.11791380048068686, -0.025638003533859848]
+A:  [0.8887399463806971, 0.8870334531379597, 0.5660699628952208, 0.5277037232227232, 0.011353549675224886]
+CALC disp:  0.32469077069457664
+F:  [0.32469077069457664, 0.8631971465629054, -0.050804268195572544, -0.003202304184377649, 0.11791380048068686, -0.025638003533859848]
+A:  [0.8917560321715817, 0.8870334531379597, 0.576236369591469, 0.5277037232227232, 0.011756936402744389]
+CALC disp:  0.32469077069457664
+F:  [0.32469077069457664, 0.6903738857179504, -0.050804268195572544, -0.003202304184377649, 0.11791380048068686, -0.025638003533859848]
+A:  [0.8920911528150134, 0.8870334531379597, 0.5728040385291656, 0.5277037232227232, 0.010293017332062365]
+CALC disp:  0.32469077069457664
+F:  [0.32469077069457664, 0.8394492803094953, -0.050804268195572544, -0.003202304184377649, 0.11791380048068686, -0.025638003533859848]
+A:  [0.8909740840035746, 0.8870334531379597, 0.5697542998618315, 0.5277037232227232, 0.011216927594720469]
+CALC disp:  0.32469077069457664
+F:  [0.32469077069457664, 0.8509037203741473, -0.050804268195572544, -0.003202304184377649, 0.11791380048068686, -0.025638003533859848]
+A:  [0.8914209115281502, 0.8870334531379597, 0.5756434667070097, 0.5277037232227232, 0.010383623646749328]
+1/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_1.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   management  divorced   tertiary  ...  -1.0       0.0  unknown   no
+1        1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+2        1   technician   married  secondary  ...  -1.0       0.0  unknown  yes
+3        1   management   married    primary  ...  -1.0       0.0  unknown   no
+4        1  blue-collar   married    primary  ...  -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+27122    0   unemployed   married    primary  ...  -1.0       0.0  failure   no
+27123    1  blue-collar  divorced  secondary  ...  -1.0       0.0  unknown  yes
+27124    1   management   married   tertiary  ...  -1.0       0.0  unknown   no
+27125    1      retired   married  secondary  ...  -1.0       0.0  unknown   no
+27126    1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.441123396436891
+F:  [0.441123396436891, 0.949945805717941, -0.09890109890109891, -0.009012031346720564, 0.11317689683349884, -0.050840923493300286]
+A:  [0.889633601429848, 0.8885264030964888, 0.5940815098715174, 0.5502774397133576, 0.006011603588761318]
+CALC disp:  0.441123396436891
+F:  [0.441123396436891, 0.8971771244697967, -0.09890109890109891, -0.009012031346720564, 0.11317689683349884, -0.050840923493300286]
+A:  [0.8880697050938338, 0.8885264030964888, 0.5868961544564093, 0.5502774397133576, 0.007532974146861254]
+CALC disp:  0.441123396436891
+F:  [0.441123396436891, 0.9395878059252898, -0.09890109890109891, -0.009012031346720564, 0.11317689683349884, -0.050840923493300286]
+A:  [0.8922028596961573, 0.8885264030964888, 0.5876768072035485, 0.5502774397133576, 0.0055615704000113765]
+CALC disp:  0.441123396436891
+F:  [0.441123396436891, 0.8368445889600693, -0.09890109890109891, -0.009012031346720564, 0.11317689683349884, -0.050840923493300286]
+A:  [0.8914209115281502, 0.8885264030964888, 0.5888050371237548, 0.5502774397133576, 0.007455696561050807]
+CALC disp:  0.441123396436891
+F:  [0.441123396436891, 0.8346475226550547, -0.09890109890109891, -0.009012031346720564, 0.11317689683349884, -0.050840923493300286]
+A:  [0.8880697050938338, 0.8885264030964888, 0.5821752468286491, 0.5502774397133576, 0.006370386898143895]
+2/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_2.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1  blue-collar  divorced    primary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1   management    single   tertiary  ...  854.0       3.0    other   no
+4        1   technician    single  secondary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27123    1   management  divorced   tertiary  ...   -1.0       0.0  unknown  yes
+27124    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27125    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+27126    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.7580981865174603
+F:  [0.7580981865174603, 0.9499982118802675, -0.09157509157509157, -0.011927340259873156, 0.11505543357004325, -0.047956005439965775]
+A:  [0.887846291331546, 0.8883052253248549, 0.5838382839652383, 0.540722922401283, 0.0036622321867962222]
+CALC disp:  0.7580981865174603
+F:  [0.7580981865174603, 0.8182894029047876, -0.09157509157509157, -0.011927340259873156, 0.11505543357004325, -0.047956005439965775]
+A:  [0.8910857908847185, 0.8883052253248549, 0.5872440801543457, 0.540722922401283, 0.0039911180574159905]
+CALC disp:  0.7580981865174603
+F:  [0.7580981865174603, 0.9458747786898438, -0.09157509157509157, -0.011927340259873156, 0.11505543357004325, -0.047956005439965775]
+A:  [0.8866175156389634, 0.8883052253248549, 0.5784622764655677, 0.540722922401283, 0.0052676911304580425]
+CALC disp:  0.7580981865174603
+F:  [0.7580981865174603, 0.9399323963707525, -0.09157509157509157, -0.011927340259873156, 0.11505543357004325, -0.047956005439965775]
+A:  [0.8872877569258266, 0.8883052253248549, 0.5780652772116307, 0.540722922401283, 0.006115514671027399]
+CALC disp:  0.7580981865174603
+F:  [0.7580981865174603, 0.7491978609625669, -0.09157509157509157, -0.011927340259873156, 0.11505543357004325, -0.047956005439965775]
+A:  [0.8890750670241286, 0.8883052253248549, 0.5806429424286398, 0.540722922401283, 0.0038319877345635908]
+3/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_3.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1   technician   married  secondary  ...  183.0      11.0  failure   no
+1        0       admin.    single  secondary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1     services   married  secondary  ...   -1.0       0.0  unknown  yes
+4        1      retired   married   tertiary  ...   -1.0      58.0  failure   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+27123    1   technician    single   tertiary  ...   -1.0       0.0  unknown   no
+27124    1  blue-collar   married    primary  ...  854.0      58.0  failure   no
+27125    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar   married    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.8790490932587302
+F:  [0.8790490932587302, 0.7979082401933801, -0.055741360089186176, -0.006915144915854751, 0.11902811190507041, -0.028300294552656122]
+A:  [0.8927613941018767, 0.8865910975946917, 0.5979312220989205, 0.5225336163485941, 0.007607242436541283]
+CALC disp:  0.8790490932587302
+F:  [0.8790490932587302, 0.8422470396767495, -0.055741360089186176, -0.006915144915854751, 0.11902811190507041, -0.028300294552656122]
+A:  [0.8908623771224308, 0.8865910975946917, 0.5892537899205494, 0.5225336163485941, 0.00913767271748719]
+CALC disp:  0.8790490932587302
+F:  [0.8790490932587302, 0.7648542475782332, -0.055741360089186176, -0.006915144915854751, 0.11902811190507041, -0.028300294552656122]
+A:  [0.894325290437891, 0.8865910975946917, 0.6044187105141197, 0.5225336163485941, 0.007665836625296092]
+CALC disp:  0.8790490932587302
+F:  [0.8790490932587302, 0.6888011221024657, -0.055741360089186176, -0.006915144915854751, 0.11902811190507041, -0.028300294552656122]
+A:  [0.8917560321715817, 0.8865910975946917, 0.5925610423207059, 0.5225336163485941, 0.008575132611674457]
+CALC disp:  0.8790490932587302
+F:  [0.8790490932587302, 0.7856988440555972, -0.055741360089186176, -0.006915144915854751, 0.11902811190507041, -0.028300294552656122]
+A:  [0.8938784629133154, 0.8865910975946917, 0.5945674656534864, 0.5225336163485941, 0.00802823620009405]
+4/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_4.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1      retired   married  secondary  ...   -1.0       0.0  unknown   no
+2        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+3        1   technician    single   tertiary  ...   -1.0       0.0  unknown  yes
+4        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       1.0  failure   no
+27123    1     services   married  secondary  ...  172.0       1.0  failure   no
+27124    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27125    1   management    single  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar    single    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  LinSVC
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.808573761771691
+F:  [0.808573761771691, 1, -0.09245102723363594, -0.01205692940530759, 0.1151320266615191, -0.048065889279736644]
+A:  [0.8935433422698839, 0.8885816975393973, 0.5980441260998364, 0.5398545545652547, 0.008372752163247087]
+CALC disp:  0.808573761771691
+F:  [0.808573761771691, 0.8692572166970487, -0.09245102723363594, -0.01205692940530759, 0.1151320266615191, -0.048065889279736644]
+A:  [0.8945487042001787, 0.8885816975393973, 0.5930049078127073, 0.5398545545652547, 0.007049284788701848]
+CALC disp:  0.808573761771691
+F:  [0.808573761771691, 1, -0.09245102723363594, -0.01205692940530759, 0.1151320266615191, -0.048065889279736644]
+A:  [0.8933199285075961, 0.8885816975393973, 0.5854935667860459, 0.5398545545652547, 0.008871689696510515]
+CALC disp:  0.808573761771691
+F:  [0.808573761771691, 0.8748240980188464, -0.09245102723363594, -0.01205692940530759, 0.1151320266615191, -0.048065889279736644]
+A:  [0.8923145665773011, 0.8885816975393973, 0.5897312640933811, 0.5398545545652547, 0.00877120726860616]
+CALC disp:  0.808573761771691
+F:  [0.808573761771691, 0.8000125246579203, -0.09245102723363594, -0.01205692940530759, 0.1151320266615191, -0.048065889279736644]
+A:  [0.8928731009830205, 0.8885816975393973, 0.5904494849007385, 0.5398545545652547, 0.009269162452957912]
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education  ... pdays  previous poutcome    y
+0        1    housemaid  married    primary  ...    -1         0  unknown   no
+1        1  blue-collar  married  secondary  ...    -1         0  unknown   no
+2        1   management  married  secondary  ...    88         5  failure   no
+3        1   management   single   tertiary  ...    -1         0  unknown  yes
+4        1      retired  married    primary  ...    -1         0  unknown   no
+...    ...          ...      ...        ...  ...   ...       ...      ...  ...
+27121    1  blue-collar  married    primary  ...    -1         0  unknown   no
+27122    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+27123    1   technician  married   tertiary  ...   242         9  failure  yes
+27124    1   technician   single   tertiary  ...    -1         0  unknown   no
+27125    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   technician   married  secondary  ...    -1         0  unknown   no
+1        1      retired   married    primary  ...    -1         0  unknown   no
+2        1     services   married    unknown  ...    -1         0  unknown   no
+3        1   management  divorced   tertiary  ...    -1         0  unknown   no
+4        1  blue-collar   married    primary  ...    -1         0  unknown  yes
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+18080    1      student    single    unknown  ...    -1         0  unknown   no
+18081    1      unknown   married    unknown  ...    -1         0  unknown  yes
+18082    1     services    single  secondary  ...    -1         0  unknown   no
+18083    1   technician    single  secondary  ...    -1         0  unknown   no
+18084    1   technician   married  secondary  ...    -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  Tree
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.6631357127711215
+F:  [0.6631357127711215, 0.70479773984514, 0.13242554546902374, 0.21137056496510537, 0.08549791846102243, 0.13259320974778643]
+A:  [0.8737712243074174, 0.8751451479126348, 0.6915444687903816, 0.7027929438191979, 0.0027452460190126073]
+CALC disp:  0.656187895701809
+F:  [0.656187895701809, 0.6384040140879046, 0.09444179009396403, 0.20291252721511696, 0.08434650384952223, 0.11409656336621987]
+A:  [0.8757819481680071, 0.8776886922864252, 0.70221197638867, 0.7060780924667251, 0.0032719815858095625]
+CALC disp:  0.6736871145663854
+F:  [0.6736871145663854, 0.6870337477797513, 0.11697722567287788, 0.21537475784424884, 0.08403969595323565, 0.1296794632085375]
+A:  [0.8763404825737265, 0.8788498755875035, 0.7012853204873779, 0.7065306321877656, 0.002707157696243183]
+CALC disp:  0.6696586005500711
+F:  [0.6696586005500711, 0.6081108808502781, 0.10654562828475866, 0.2159983497492618, 0.08479779835439558, 0.12739778848972172]
+A:  [0.8715370866845398, 0.8764722145424385, 0.700222738138605, 0.7049792893864187, 0.003483139415079181]
+CALC disp:  0.6561069488594086
+F:  [0.6561069488594086, 0.6618090786505983, 0.09985666507405633, 0.20351176529797066, 0.08369729897993405, 0.1154650671427333]
+A:  [0.8700848972296693, 0.8784075200442355, 0.6973289546893718, 0.7085349734202645, 0.002158392717417155]
+no other protected
+['sample_data_bank_tab_split_age_60_0_0.csv', 'sample_data_bank_tab_split_age_60_0_1.csv', 'sample_data_bank_tab_split_age_60_0_2.csv', 'sample_data_bank_tab_split_age_60_0_3.csv', 'sample_data_bank_tab_split_age_60_0_4.csv']
+0/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_0.csv
+age
+inbank
+       age            job   marital  education  ... pdays  previous poutcome   y
+0        1     technician   married  secondary  ...  -1.0       0.0  unknown  no
+1        1        unknown   married    primary  ...  -1.0       0.0  unknown  no
+2        1     technician  divorced   tertiary  ...  -1.0       0.0  unknown  no
+3        1    blue-collar   married    primary  ...  -1.0       0.0  unknown  no
+4        1         admin.    single  secondary  ...  -1.0       0.0  unknown  no
+...    ...            ...       ...        ...  ...   ...       ...      ...  ..
+27122    1       services   married  secondary  ...  -1.0       0.0  unknown  no
+27123    1     management    single   tertiary  ...  -1.0       0.0  unknown  no
+27124    1     unemployed   married   tertiary  ...  -1.0       0.0  unknown  no
+27125    1  self-employed   married   tertiary  ...  -1.0       0.0  unknown  no
+27126    1  self-employed   married   tertiary  ...  -1.0       0.0  failure  no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  Tree
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.25417426298018053
+F:  [0.25417426298018053, 0.5616900992111147, -0.05295429208472685, 0.044014953246805766, 0.10951637237438387, -0.02001227128133818]
+A:  [0.836349419124218, 0.8330107824163672, 0.6292902068293659, 0.6231785065369446, 0.012406136390215853]
+CALC disp:  0.28124195096102833
+F:  [0.28124195096102833, 0.5068896280979353, -0.039974518235387835, 0.05111057339063407, 0.10977330194343937, -0.010946047448164957]
+A:  [0.8370196604110813, 0.8314625380149295, 0.6320861061769893, 0.6229167606282542, 0.01127783516373433]
+CALC disp:  0.26295171804728135
+F:  [0.26295171804728146, 0.4590969927071098, -0.07071189679885331, 0.046035315052996933, 0.10959191563421275, -0.023893125851010638]
+A:  [0.8325513851653262, 0.8329001935305502, 0.6319628533479407, 0.6229109009765021, 0.01059694351775349]
+CALC disp:  0.313704717262308
+F:  [0.3137047172623081, 0.4940320680293018, -0.026755852842809347, 0.058204015096241735, 0.10933409350472795, -0.002043232147077856]
+A:  [0.8298704200178731, 0.8338954935029029, 0.630439817429677, 0.6234744929359235, 0.010217009038790918]
+CALC disp:  0.24139185467060087
+F:  [0.24139185467060087, 0.43468860951306965, -0.07493231406274886, 0.042031122173853436, 0.11023913150564013, -0.027643754430464976]
+A:  [0.8357908847184986, 0.8301907658280343, 0.6269602907063463, 0.6215816626519174, 0.010150364660998275]
+1/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_1.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   management  divorced   tertiary  ...  -1.0       0.0  unknown   no
+1        1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+2        1   technician   married  secondary  ...  -1.0       0.0  unknown  yes
+3        1   management   married    primary  ...  -1.0       0.0  unknown   no
+4        1  blue-collar   married    primary  ...  -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+27122    0   unemployed   married    primary  ...  -1.0       0.0  failure   no
+27123    1  blue-collar  divorced  secondary  ...  -1.0       0.0  unknown  yes
+27124    1   management   married   tertiary  ...  -1.0       0.0  unknown   no
+27125    1      retired   married  secondary  ...  -1.0       0.0  unknown   no
+27126    1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  Tree
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.013776588611676965
+F:  [0.013776588611676965, 0.2998253270500325, -0.168179646440516, -0.001807601006639542, 0.11608632635585867, -0.08090268303253455]
+A:  [0.8351206434316354, 0.8237766104506498, 0.6413187366430559, 0.5997060289660935, 0.005666793251878268]
+CALC disp:  0.015386750152512785
+F:  [0.015386750152512896, 0.464270823620892, -0.13736263736263737, 0.002093534987449408, 0.11555293083595995, -0.06958280707551633]
+A:  [0.8276362823949955, 0.82267072159248, 0.6169917079346704, 0.6025645476153526, 0.00545313779126814]
+CALC disp:  0.0459565063550369
+F:  [0.0459565063550369, 0.32122433019348806, -0.14612199394808092, 0.006427789185718763, 0.11578543390613397, -0.06889892078294707]
+A:  [0.8380250223413762, 0.8225048382637545, 0.6421862836834619, 0.6016506786956439, 0.004819697008308802]
+CALC disp:  0.036470948781614165
+F:  [0.036470948781614165, 0.5368009460854348, -0.15719063545150502, -0.004825966804846676, 0.11632316422952921, -0.07955931759613909]
+A:  [0.8322162645218946, 0.8228366049212055, 0.6388775537267299, 0.5991737476710843, 0.005898615049223114]
+CALC disp:  0.11325840024325406
+F:  [0.11325840024325395, 0.30716930050352254, -0.13369963369963372, 0.016810951891482045, 0.11517875869189494, -0.05824132501006226]
+A:  [0.829088471849866, 0.8241636715510091, 0.6229332070205936, 0.6034099355544846, 0.004926057390028311]
+2/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_2.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1  blue-collar  divorced    primary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1   management    single   tertiary  ...  854.0       3.0    other   no
+4        1   technician    single  secondary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27123    1   management  divorced   tertiary  ...   -1.0       0.0  unknown  yes
+27124    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27125    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+27126    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  Tree
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.0912898699993906
+F:  [0.0912898699993906, 0.3523106360385089, -0.10224558050645005, 0.013723881503238555, 0.11419429303557421, -0.052322659559685174]
+A:  [0.8316577301161752, 0.822560132706663, 0.6293277336840757, 0.6084464690034485, 0.0047324277272687105]
+CALC disp:  0.09597595575788109
+F:  [0.09597595575788109, 0.26335676625659055, -0.10455486542443065, 0.014428354909367475, 0.11470670629872246, -0.05194151791144196]
+A:  [0.8300938337801609, 0.822228366049212, 0.6210333716163668, 0.6064137469324131, 0.005357389317134661]
+CALC disp:  0.06199672934024303
+F:  [0.06199672934024303, 0.4392514036182158, -0.10391782130912564, 0.009025213690825096, 0.11388687384144115, -0.05645690164642957]
+A:  [0.8268543342269884, 0.8232236660215648, 0.6152899347810041, 0.6094371496712498, 0.0038596084174005174]
+CALC disp:  0.11780312229031153
+F:  [0.11780312229031153, 0.48512183383657914, -0.10622710622710624, 0.018045958790428307, 0.11434418496314806, -0.05019509076085338]
+A:  [0.8288650580875782, 0.8231130771357479, 0.6285143876710998, 0.6075296702578638, 0.00513315991844248]
+CALC disp:  0.07570001326605758
+F:  [0.07570001326605769, 0.47362040670228067, -0.11450867972607101, 0.011092104703114058, 0.11567067983429269, -0.05629817080392098]
+A:  [0.8324396782841823, 0.8212330660768593, 0.6239295487457215, 0.6027753914987225, 0.005080925674019779]
+3/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_3.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1   technician   married  secondary  ...  183.0      11.0  failure   no
+1        0       admin.    single  secondary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1     services   married  secondary  ...   -1.0       0.0  unknown  yes
+4        1      retired   married   tertiary  ...   -1.0      58.0  failure   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+27123    1   technician    single   tertiary  ...   -1.0       0.0  unknown   no
+27124    1  blue-collar   married    primary  ...  854.0      58.0  failure   no
+27125    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar   married    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  Tree
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.07494516508330318
+F:  [0.07494516508330307, 0.17797225399035355, -0.10638636725593245, 0.009840564016646847, 0.1126663531914642, -0.056383699165375896]
+A:  [0.8376899016979446, 0.8343931434890793, 0.6342020516383406, 0.6085874557759061, 0.009465506036453516]
+CALC disp:  0.10683744073718682
+F:  [0.1068374407371867, 0.1516557222322631, -0.09491957318044272, 0.01473970400275175, 0.1142755891093207, -0.04801145374293839]
+A:  [0.8336684539767649, 0.8307990047000277, 0.6207190092674875, 0.6036824833464554, 0.008169540727793325]
+CALC disp:  0.03502812713673009
+F:  [0.03502812713672998, 0.25460193078131343, -0.12127727345118652, 0.0045326596485207316, 0.1129544101710151, -0.0647180843563678]
+A:  [0.832774798927614, 0.8320707768869229, 0.6242097820980352, 0.6087072974919152, 0.009316877609866929]
+CALC disp:  0.10106339608364967
+F:  [0.10106339608364967, 0.30716867489728195, -0.1119605032648511, 0.01384693533401099, 0.11241950726275732, -0.05567890041243916]
+A:  [0.8336684539767649, 0.833563726845452, 0.6263173829868909, 0.610167638125901, 0.008731993216533932]
+CALC disp:  0.017962717740915513
+F:  [0.017962717740915513, 0.1268963385849502, -0.13712374581939799, -0.002245076087261308, 0.11371824018582104, -0.07355685038936588]
+A:  [0.8295352993744415, 0.8311307713574786, 0.6195688576541851, 0.6059201896491087, 0.008728419290188893]
+4/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_4.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1      retired   married  secondary  ...   -1.0       0.0  unknown   no
+2        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+3        1   technician    single   tertiary  ...   -1.0       0.0  unknown  yes
+4        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       1.0  failure   no
+27123    1     services   married  secondary  ...  172.0       1.0  failure   no
+27124    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27125    1   management    single  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar    single    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  Tree
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.09493122235284968
+F:  [0.09493122235284968, 0.31502655911863076, -0.10654562828475872, 0.013909998327629736, 0.11063583491732078, -0.056744428801658066]
+A:  [0.8399240393208222, 0.8303013547138512, 0.6356972189061325, 0.6197994258961804, 0.01031674790315216]
+CALC disp:  0.04022021316843427
+F:  [0.04022021316843438, 0.3271639533548958, -0.13799968147794237, 0.005510666694818783, 0.11241526793974481, -0.07031541703267521]
+A:  [0.8397006255585344, 0.8286978158695051, 0.6291580669407968, 0.6129468739113033, 0.0072799953998089265]
+CALC disp:  0.1296013226968188
+F:  [0.1296013226968188, 0.4544059342626934, -0.10598821468386688, 0.019606670132059162, 0.11055581414043562, -0.05254424073575304]
+A:  [0.8317694369973191, 0.8307990047000277, 0.6166349206349206, 0.6198762376442732, 0.010805433552948291]
+CALC disp:  0.030056710930257968
+F:  [0.030056710930257968, 0.3993620560212704, -0.12669214843127888, 0.004089542971481341, 0.11206096954319276, -0.06828785618425139]
+A:  [0.8389186773905273, 0.8289742880840476, 0.633121987885219, 0.6143333326230725, 0.008672097306758313]
+CALC disp:  0.052217460503828916
+F:  [0.05221746050382903, 0.30640674055113504, -0.12971810797897754, 0.007154437975786271, 0.11065639220996874, -0.06825884120744455]
+A:  [0.8370196604110813, 0.8322366602156483, 0.6404585930936906, 0.6186404726028135, 0.00790284534097144]
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+       age          job  marital  education  ... pdays  previous poutcome    y
+0        1    housemaid  married    primary  ...    -1         0  unknown   no
+1        1  blue-collar  married  secondary  ...    -1         0  unknown   no
+2        1   management  married  secondary  ...    88         5  failure   no
+3        1   management   single   tertiary  ...    -1         0  unknown  yes
+4        1      retired  married    primary  ...    -1         0  unknown   no
+...    ...          ...      ...        ...  ...   ...       ...      ...  ...
+27121    1  blue-collar  married    primary  ...    -1         0  unknown   no
+27122    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+27123    1   technician  married   tertiary  ...   242         9  failure  yes
+27124    1   technician   single   tertiary  ...    -1         0  unknown   no
+27125    1  blue-collar  married  secondary  ...    -1         0  unknown   no
+
+[27126 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+bank/bank-full-SPLIT-ALL-40-age.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   technician   married  secondary  ...    -1         0  unknown   no
+1        1      retired   married    primary  ...    -1         0  unknown   no
+2        1     services   married    unknown  ...    -1         0  unknown   no
+3        1   management  divorced   tertiary  ...    -1         0  unknown   no
+4        1  blue-collar   married    primary  ...    -1         0  unknown  yes
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+18080    1      student    single    unknown  ...    -1         0  unknown   no
+18081    1      unknown   married    unknown  ...    -1         0  unknown  yes
+18082    1     services    single  secondary  ...    -1         0  unknown   no
+18083    1   technician    single  secondary  ...    -1         0  unknown   no
+18084    1   technician   married  secondary  ...    -1         0  unknown   no
+
+[18085 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  NeuralNet
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.705822598500478
+F:  [0.705822598500478, 0.7493267186392629, 0.12645325688803954, 0.22564832835029558, 0.07166940511986777, 0.12903649634633446]
+A:  [0.9018096514745308, 0.9019076582803428, 0.7455364473176276, 0.7443902712734657, 0.003201030562262475]
+no other protected
+['sample_data_bank_tab_split_age_60_0_0.csv', 'sample_data_bank_tab_split_age_60_0_1.csv', 'sample_data_bank_tab_split_age_60_0_2.csv', 'sample_data_bank_tab_split_age_60_0_3.csv', 'sample_data_bank_tab_split_age_60_0_4.csv']
+0/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_0.csv
+age
+inbank
+       age            job   marital  education  ... pdays  previous poutcome   y
+0        1     technician   married  secondary  ...  -1.0       0.0  unknown  no
+1        1        unknown   married    primary  ...  -1.0       0.0  unknown  no
+2        1     technician  divorced   tertiary  ...  -1.0       0.0  unknown  no
+3        1    blue-collar   married    primary  ...  -1.0       0.0  unknown  no
+4        1         admin.    single  secondary  ...  -1.0       0.0  unknown  no
+...    ...            ...       ...        ...  ...   ...       ...      ...  ..
+27122    1       services   married  secondary  ...  -1.0       0.0  unknown  no
+27123    1     management    single   tertiary  ...  -1.0       0.0  unknown  no
+27124    1     unemployed   married   tertiary  ...  -1.0       0.0  unknown  no
+27125    1  self-employed   married   tertiary  ...  -1.0       0.0  unknown  no
+27126    1  self-employed   married   tertiary  ...  -1.0       0.0  failure  no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  NeuralNet
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.28795846951896775
+F:  [0.28795846951896775, 0.95743677238057, -0.1040770823379519, -0.008080553506520288, 0.10999489497085406, -0.05624733219972674]
+A:  [0.896112600536193, 0.8891346419684821, 0.6233913997677122, 0.5659956743932391, 0.010476882783035352]
+1/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_1.csv
+age
+inbank
+       age          job   marital  education  ... pdays  previous poutcome    y
+0        1   management  divorced   tertiary  ...  -1.0       0.0  unknown   no
+1        1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+2        1   technician   married  secondary  ...  -1.0       0.0  unknown  yes
+3        1   management   married    primary  ...  -1.0       0.0  unknown   no
+4        1  blue-collar   married    primary  ...  -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...   ...       ...      ...  ...
+27122    0   unemployed   married    primary  ...  -1.0       0.0  failure   no
+27123    1  blue-collar  divorced  secondary  ...  -1.0       0.0  unknown  yes
+27124    1   management   married   tertiary  ...  -1.0       0.0  unknown   no
+27125    1      retired   married  secondary  ...  -1.0       0.0  unknown   no
+27126    1   management    single   tertiary  ...  -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  NeuralNet
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.7003250261325702
+F:  [0.7003250261325702, 1, -0.19453734671125977, -0.02668257261712094, 0.10604861309266397, -0.102402310200407]
+A:  [0.8937667560321716, 0.890129941940835, 0.6224007904472578, 0.5850078471982756, 0.004498246980878559]
+2/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_2.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1  blue-collar  divorced    primary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1   management    single   tertiary  ...  854.0       3.0    other   no
+4        1   technician    single  secondary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27123    1   management  divorced   tertiary  ...   -1.0       0.0  unknown  yes
+27124    1     services    single  secondary  ...   -1.0       0.0  unknown   no
+27125    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+27126    1       admin.   married  secondary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  NeuralNet
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.8047298614056607
+F:  [0.8047298614056607, 0.9274596638437832, -0.1923076923076923, -0.031369063518454775, 0.10662230840936503, -0.10465432680364146]
+A:  [0.8886282394995532, 0.8890793475255737, 0.6099982477513289, 0.5835930076479701, 0.0041567106089052544]
+3/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_3.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1   technician   married  secondary  ...  183.0      11.0  failure   no
+1        0       admin.    single  secondary  ...   -1.0       0.0  unknown   no
+2        1     services   married  secondary  ...   -1.0       0.0  unknown   no
+3        1     services   married  secondary  ...   -1.0       0.0  unknown  yes
+4        1      retired   married   tertiary  ...   -1.0      58.0  failure   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+27123    1   technician    single   tertiary  ...   -1.0       0.0  unknown   no
+27124    1  blue-collar   married    primary  ...  854.0      58.0  failure   no
+27125    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar   married    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  NeuralNet
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.8987036156041864
+F:  [0.8987036156041864, 0.8997003852190042, -0.1626851409460105, -0.025324511887402226, 0.10963462346521365, -0.08646378603093705]
+A:  [0.8910857908847185, 0.890019353055018, 0.6257702354817859, 0.5664966450238358, 0.00874986360229382]
+4/5
+../bank/compare//sample_data_bank_tab_split_age_60_0_4.csv
+age
+inbank
+       age          job   marital  education  ...  pdays  previous poutcome    y
+0        1  blue-collar   married  secondary  ...   -1.0       0.0  unknown   no
+1        1      retired   married  secondary  ...   -1.0       0.0  unknown   no
+2        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+3        1   technician    single   tertiary  ...   -1.0       0.0  unknown  yes
+4        1   management   married   tertiary  ...   -1.0       0.0  unknown   no
+...    ...          ...       ...        ...  ...    ...       ...      ...  ...
+27122    1  blue-collar   married  secondary  ...   -1.0       1.0  failure   no
+27123    1     services   married  secondary  ...  172.0       1.0  failure   no
+27124    1   technician  divorced  secondary  ...   -1.0       0.0  unknown   no
+27125    1   management    single  secondary  ...   -1.0       0.0  unknown   no
+27126    1  blue-collar    single    primary  ...   -1.0       0.0  unknown   no
+
+[27127 rows x 17 columns]
+Index(['job', 'marital', 'education', 'default', 'housing', 'loan', 'contact',
+       'month', 'poutcome'],
+      dtype='object')
+ALG:  NeuralNet
+bank/bank-full-SPLIT-TRAIN-60-age.csv
+age
+inbank
+CALC disp:  0.8154752770019337
+F:  [0.8154752770019337, 0.9532731822971549, -0.17932791845835325, -0.02522927503698597, 0.10714269632639292, -0.09429615412456778]
+A:  [0.8938784629133154, 0.8920099529997235, 0.6170703453154707, 0.5764381509022503, 0.009809886595759331]

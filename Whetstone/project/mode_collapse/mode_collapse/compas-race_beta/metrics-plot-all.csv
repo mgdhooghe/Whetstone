@@ -1,0 +1,23 @@
+,file,DI,Stat Par,Avg Odds,Eq Opp,Theil,prec,rec,acc,bal_acc,config
+Original,Original,0.263,-0.541,-0.145,-0.125,0.214,0.683,0.72,0.668,0.664,Original
+Base,Base,0.005,-0.007,0.038,0.054,0.24,0.702,0.676,0.67,0.67,Base
+Base,Base,0.011,-0.012,0.042,0.04,0.197,0.693,0.746,0.685,0.68,Base
+Base,Base,0.018,0.01,0.036,0.107,0.256,0.712,0.648,0.669,0.67,Base
+0,sample_data_parallel_compas-race-VGAN-norm-b-0_race_1.csv,0.016,0.008,0.046,0.045,0.218,0.69,0.712,0.672,0.669,sample_data_parallel_compas-race-VGAN-norm-b-0_race
+0,sample_data_parallel_compas-race-VGAN-norm-b-0_race_2.csv,0.021,0.028,0.051,0.07,0.257,0.719,0.645,0.672,0.675,sample_data_parallel_compas-race-VGAN-norm-b-0_race
+0,sample_data_parallel_compas-race-VGAN-norm-b-0_race_3.csv,0.095,0.132,0.077,0.139,0.288,0.723,0.597,0.659,0.664,sample_data_parallel_compas-race-VGAN-norm-b-0_race
+100,sample_data_parallel_compas-race-VGAN-norm-b-100_race_1.csv,0.041,0.068,0.06,0.085,0.23,0.684,0.694,0.662,0.659,sample_data_parallel_compas-race-VGAN-norm-b-100_race
+100,sample_data_parallel_compas-race-VGAN-norm-b-100_race_2.csv,0.029,0.05,0.061,0.061,0.211,0.693,0.723,0.677,0.674,sample_data_parallel_compas-race-VGAN-norm-b-100_race
+100,sample_data_parallel_compas-race-VGAN-norm-b-100_race_3.csv,0.061,-0.095,0.005,0.047,0.253,0.71,0.653,0.669,0.67,sample_data_parallel_compas-race-VGAN-norm-b-100_race
+1,sample_data_parallel_compas-race-VGAN-norm-b-1_race_1.csv,0.008,0.012,0.043,0.071,0.24,0.701,0.675,0.67,0.669,sample_data_parallel_compas-race-VGAN-norm-b-1_race
+1,sample_data_parallel_compas-race-VGAN-norm-b-1_race_2.csv,0.018,0.027,0.052,0.055,0.256,0.709,0.648,0.667,0.668,sample_data_parallel_compas-race-VGAN-norm-b-1_race
+1,sample_data_parallel_compas-race-VGAN-norm-b-1_race_3.csv,0.119,0.188,0.097,0.146,0.256,0.697,0.651,0.659,0.66,sample_data_parallel_compas-race-VGAN-norm-b-1_race
+25,sample_data_parallel_compas-race-VGAN-norm-b-25_race_1.csv,0.03,-0.039,0.027,0.036,0.302,0.73,0.574,0.656,0.663,sample_data_parallel_compas-race-VGAN-norm-b-25_race
+25,sample_data_parallel_compas-race-VGAN-norm-b-25_race_2.csv,0.021,-0.033,0.032,0.043,0.202,0.695,0.737,0.683,0.679,sample_data_parallel_compas-race-VGAN-norm-b-25_race
+25,sample_data_parallel_compas-race-VGAN-norm-b-25_race_3.csv,0.008,0.005,0.038,0.061,0.197,0.668,0.75,0.664,0.656,sample_data_parallel_compas-race-VGAN-norm-b-25_race
+50,sample_data_parallel_compas-race-VGAN-norm-b-50_race_1.csv,0.025,0.042,0.052,0.076,0.226,0.686,0.7,0.665,0.662,sample_data_parallel_compas-race-VGAN-norm-b-50_race
+50,sample_data_parallel_compas-race-VGAN-norm-b-50_race_2.csv,0.039,0.068,0.06,0.092,0.216,0.684,0.717,0.668,0.664,sample_data_parallel_compas-race-VGAN-norm-b-50_race
+50,sample_data_parallel_compas-race-VGAN-norm-b-50_race_3.csv,0.103,0.154,0.089,0.129,0.266,0.715,0.631,0.666,0.668,sample_data_parallel_compas-race-VGAN-norm-b-50_race
+5,sample_data_parallel_compas-race-VGAN-norm-b-5_race_1.csv,0.023,0.035,0.045,0.057,0.274,0.678,0.626,0.638,0.639,sample_data_parallel_compas-race-VGAN-norm-b-5_race
+5,sample_data_parallel_compas-race-VGAN-norm-b-5_race_2.csv,0.107,0.166,0.092,0.127,0.259,0.7,0.646,0.659,0.66,sample_data_parallel_compas-race-VGAN-norm-b-5_race
+5,sample_data_parallel_compas-race-VGAN-norm-b-5_race_3.csv,0.091,0.128,0.076,0.138,0.28,0.724,0.609,0.663,0.668,sample_data_parallel_compas-race-VGAN-norm-b-5_race

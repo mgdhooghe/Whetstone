@@ -1,0 +1,26 @@
+,file,DI,Stat Par,Avg Odds,Eq Opp,Theil,prec,rec,acc,bal_acc
+0,Original,0.65,-0.534,-0.035,-0.011,0.09,0.804,0.705,0.885,0.824
+1,Base,0.024,-0.024,0.148,0.225,0.119,0.52,0.708,0.766,0.747
+2,Base,0.069,0.079,0.16,0.2,0.113,0.512,0.742,0.761,0.754
+3,Base,0.044,0.048,0.157,0.21,0.117,0.514,0.723,0.762,0.749
+4,Base,0.035,0.043,0.136,0.159,0.109,0.487,0.772,0.742,0.752
+5,Base,0.05,0.058,0.158,0.204,0.111,0.503,0.759,0.755,0.756
+6,Base,0.062,0.065,0.178,0.251,0.12,0.524,0.711,0.768,0.749
+7,sample_data_parallel_adult-WGAN-gmm-sp-.5_sex_1.csv,0.007,0.007,0.14,0.188,0.117,0.509,0.732,0.759,0.75
+8,sample_data_parallel_adult-WGAN-gmm-sp-.5_sex_2.csv,0.006,-0.005,0.138,0.192,0.12,0.516,0.718,0.763,0.748
+9,sample_data_parallel_adult-WGAN-gmm-sp-.5_sex_3.csv,0.014,-0.015,0.129,0.167,0.111,0.521,0.747,0.767,0.76
+10,sample_data_parallel_adult-WGAN-gmm-sp-100_sex_1.csv,0.002,-0.001,0.144,0.215,0.134,0.534,0.643,0.773,0.729
+11,sample_data_parallel_adult-WGAN-gmm-sp-100_sex_2.csv,0.066,0.105,0.129,0.125,0.095,0.419,0.853,0.67,0.731
+12,sample_data_parallel_adult-WGAN-gmm-sp-100_sex_3.csv,0.391,-0.535,-0.035,0.016,0.095,0.51,0.823,0.761,0.782
+13,sample_data_parallel_adult-WGAN-gmm-sp-10_sex_1.csv,0.035,0.04,0.145,0.185,0.114,0.493,0.748,0.747,0.747
+14,sample_data_parallel_adult-WGAN-gmm-sp-10_sex_2.csv,0.033,0.036,0.153,0.205,0.116,0.512,0.73,0.761,0.75
+15,sample_data_parallel_adult-WGAN-gmm-sp-10_sex_3.csv,0.012,-0.015,0.139,0.199,0.112,0.483,0.76,0.739,0.746
+16,sample_data_parallel_adult-WGAN-gmm-sp-1_sex_1.csv,0.017,-0.02,0.126,0.16,0.107,0.507,0.771,0.758,0.762
+17,sample_data_parallel_adult-WGAN-gmm-sp-1_sex_2.csv,0.036,0.038,0.147,0.193,0.121,0.516,0.703,0.763,0.743
+18,sample_data_parallel_adult-WGAN-gmm-sp-1_sex_3.csv,0.02,0.022,0.131,0.16,0.114,0.506,0.736,0.757,0.75
+19,sample_data_parallel_adult-WGAN-gmm-sp-25_sex_1.csv,0.052,0.056,0.149,0.185,0.117,0.52,0.726,0.766,0.752
+20,sample_data_parallel_adult-WGAN-gmm-sp-25_sex_2.csv,0.011,0.012,0.136,0.17,0.113,0.514,0.753,0.762,0.759
+21,sample_data_parallel_adult-WGAN-gmm-sp-25_sex_3.csv,0.092,0.119,0.164,0.196,0.112,0.471,0.763,0.729,0.74
+22,sample_data_parallel_adult-WGAN-gmm-sp-50_sex_1.csv,0.052,0.059,0.164,0.223,0.117,0.5,0.731,0.753,0.745
+23,sample_data_parallel_adult-WGAN-gmm-sp-50_sex_2.csv,0.072,-0.094,0.094,0.126,0.102,0.471,0.809,0.727,0.755
+24,sample_data_parallel_adult-WGAN-gmm-sp-50_sex_3.csv,0.034,-0.041,0.119,0.163,0.111,0.478,0.771,0.735,0.747

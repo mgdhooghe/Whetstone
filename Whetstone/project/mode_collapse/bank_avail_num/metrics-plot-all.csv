@@ -1,0 +1,14 @@
+,file,DI,Stat Par,Avg Odds,Eq Opp,Theil,prec,rec,acc,bal_acc,config
+Original,Original,0.692,0.463,0.07,0.06,0.079,0.65,0.432,0.906,0.701,Original
+Base,Base,0.098,-0.057,-0.208,-0.379,0.073,0.408,0.678,0.847,0.774,Base
+Base,Base,0.036,-0.031,-0.2,-0.354,0.071,0.328,0.807,0.784,0.794,Base
+Base,Base,0.022,-0.001,-0.177,-0.327,0.073,0.447,0.639,0.865,0.767,Base
+.1,sample_data_parallel_bank-VGAN-norm-n-.1_age_1.csv,0.047,-0.043,-0.197,-0.346,0.074,0.311,0.804,0.768,0.784,sample_data_parallel_bank-VGAN-norm-n-.1_age
+.1,sample_data_parallel_bank-VGAN-norm-n-.1_age_2.csv,0.04,-0.036,-0.202,-0.364,0.073,0.317,0.807,0.774,0.788,sample_data_parallel_bank-VGAN-norm-n-.1_age
+.1,sample_data_parallel_bank-VGAN-norm-n-.1_age_3.csv,0.095,-0.073,-0.214,-0.37,0.071,0.358,0.773,0.811,0.794,sample_data_parallel_bank-VGAN-norm-n-.1_age
+.25,sample_data_parallel_bank-VGAN-norm-n-.25_age_1.csv,0.037,-0.025,-0.196,-0.356,0.072,0.382,0.726,0.83,0.785,sample_data_parallel_bank-VGAN-norm-n-.25_age
+.25,sample_data_parallel_bank-VGAN-norm-n-.25_age_2.csv,0.049,-0.036,-0.214,-0.399,0.071,0.363,0.761,0.816,0.792,sample_data_parallel_bank-VGAN-norm-n-.25_age
+.25,sample_data_parallel_bank-VGAN-norm-n-.25_age_3.csv,0.016,-0.0,-0.191,-0.348,0.071,0.351,0.784,0.805,0.796,sample_data_parallel_bank-VGAN-norm-n-.25_age
+.5,sample_data_parallel_bank-VGAN-norm-n-.5_age_1.csv,0.026,-0.02,-0.199,-0.359,0.071,0.358,0.776,0.811,0.796,sample_data_parallel_bank-VGAN-norm-n-.5_age
+.5,sample_data_parallel_bank-VGAN-norm-n-.5_age_2.csv,0.051,-0.038,-0.206,-0.374,0.072,0.357,0.756,0.812,0.788,sample_data_parallel_bank-VGAN-norm-n-.5_age
+.5,sample_data_parallel_bank-VGAN-norm-n-.5_age_3.csv,0.062,-0.038,-0.207,-0.383,0.071,0.402,0.71,0.842,0.785,sample_data_parallel_bank-VGAN-norm-n-.5_age

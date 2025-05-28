@@ -1,0 +1,363 @@
+TEST FILE:  adult/ADULT-SPLIT-TEST-20.csv
+TRAIN FILE:  adult/ADULT-SPLIT-TRAIN-60.csv
+ALL TEST FILE:  adult/ADULT-SPLIT-ALL-40.csv
+adult/ADULT-SPLIT-TRAIN-60.csv
+gender
+['sample_data_0_9_0.csv', 'sample_data_1_9_0.csv', 'sample_data_2_9_0.csv', 'sample_data_3_9_0.csv', 'sample_data_4_9_0.csv', 'sample_data_5_9_0.csv', 'sample_data_6_9_0.csv']
+adult/ADULT-SPLIT-TRAIN-60.csv
+gender
+       age          workclass  fnlwgt     education  education-num  ... capital-gain capital-loss hours-per-week  native-country  income
+0       30            Private  242460       HS-grad              9  ...            0            0             50   United-States   <=50K
+1       40            Private  374367     Assoc-voc             11  ...            0            0             44   United-States   <=50K
+2       30            Private  158688       HS-grad              9  ...            0            0             40   United-States   <=50K
+3       49          Local-gov  226871       HS-grad              9  ...            0            0             40   United-States    >50K
+4       35          State-gov   28738     Bachelors             13  ...         4101            0             40   United-States   <=50K
+...    ...                ...     ...           ...            ...  ...          ...          ...            ...             ...     ...
+27852   18            Private   56613  Some-college             10  ...            0            0             20   United-States   <=50K
+27853   53            Private  129525     Bachelors             13  ...            0            0             50   United-States    >50K
+27854   53       Self-emp-inc  148532     Bachelors             13  ...            0            0             60   United-States    >50K
+27855   32   Self-emp-not-inc  168782           9th              5  ...            0            0             32   United-States   <=50K
+27856   40          Local-gov   39581   Prof-school             15  ...            0            0             40   United-States   <=50K
+
+[27857 rows x 15 columns]
+Index(['workclass', 'education', 'marital-status', 'occupation',
+       'relationship', 'race', 'native-country'],
+      dtype='object')
+adult/ADULT-SPLIT-ALL-40.csv
+gender
+       age     workclass  fnlwgt      education  education-num  ... capital-gain capital-loss hours-per-week  native-country  income
+0       53  Self-emp-inc  157881   Some-college             10  ...            0            0             60   United-States   <=50K
+1       27       Private  138705        HS-grad              9  ...            0            0             53   United-States   <=50K
+2       33       Private  350106   Some-college             10  ...            0            0             34   United-States   <=50K
+3       43       Private  172025        HS-grad              9  ...            0            0             40   United-States   <=50K
+4       38       Private  259846        HS-grad              9  ...            0            0             60   United-States    >50K
+...    ...           ...     ...            ...            ...  ...          ...          ...            ...             ...     ...
+18567   45       Private  149388   Some-college             10  ...            0            0             48   United-States    >50K
+18568   27       Private  100168        7th-8th              4  ...            0            0             40   United-States   <=50K
+18569   54       Private  174865            9th              5  ...            0            0             45   United-States    >50K
+18570   31       Private  214288   Some-college             10  ...            0            0             40   United-States   <=50K
+18571   42  Self-emp-inc   23510        Masters             14  ...            0         2201             60           India    >50K
+
+[18572 rows x 15 columns]
+Index(['workclass', 'education', 'marital-status', 'occupation',
+       'relationship', 'race', 'native-country'],
+      dtype='object')
+ALG:  RandomForest
+adult/ADULT-SPLIT-TRAIN-60.csv
+gender
+sex  income
+1    0.0       8931
+0    0.0       5439
+1    1.0       3651
+0    1.0        551
+dtype: int64
+CALC disp:  0.6829975458961319
+F:  [0.6718084926355734, 0.6781564584024526, -0.027499930118301985, -0.18775137669813174, 0.09116750930416803, -0.04652908713805676]
+A:  [0.8661723359503751, 0.8851792858147307, 0.8053932778453177, 0.8280614256141909, 0.006603634202711728]
+sex  income
+1    0.0       8934
+0    0.0       5440
+1    1.0       3648
+0    1.0        550
+dtype: int64
+CALC disp:  0.6833126482734382
+F:  [0.673169836999731, 0.705128283870147, -0.03264554757142424, -0.18806862369311847, 0.09147893230528953, -0.049104315562693665]
+A:  [0.8756079058939553, 0.8845686788011389, 0.8094357568551829, 0.8270990439097995, 0.0077597131159634035]
+sex  income
+1    0.0       8941
+0    0.0       5434
+1    1.0       3641
+0    1.0        556
+dtype: int64
+CALC disp:  0.6792423883255027
+F:  [0.6710537953749844, 0.7217271097524082, -0.02874804642033213, -0.18778955782975704, 0.09146173040391234, -0.04720194205481729]
+A:  [0.8721709549830412, 0.8846046353519122, 0.8116796714713379, 0.8275317906136577, 0.007969901145618952]
+sex  income
+1    0.0       8920
+0    0.0       5438
+1    1.0       3662
+0    1.0        552
+dtype: int64
+CALC disp:  0.6833761712812816
+F:  [0.6711737420148989, 0.6809633283766976, -0.03493405047179188, -0.1883792647088292, 0.0906896889838392, -0.04991414953940372]
+A:  [0.8702453234413617, 0.8849744837796709, 0.8111067875751106, 0.8284800017042409, 0.007893023606835815]
+sex  income
+1    0.0       8907
+0    0.0       5436
+1    1.0       3675
+0    1.0        554
+dtype: int64
+CALC disp:  0.6833530714456066
+F:  [0.6718396963800559, 0.6760329069939665, -0.03511724101290914, -0.1893655771598877, 0.09140237608043808, -0.050692984099378974]
+A:  [0.8708381467620325, 0.8842200130579303, 0.808492297492666, 0.8280681368125142, 0.008901894746912014]
+RandomForest
+sample_data_0_9_0.csv
+0/7
+../adult/adult-VGAN-1hot-norm-split-60/9//sample_data_0_9_0.csv
+gender
+       age   workclass  fnlwgt     education  education-num       marital-status  ...     sex capital-gain capital-loss hours-per-week  native-country  income
+0       35     Private  330728       HS-grad              9             Divorced  ...  Female           35            4             53   United-States   <=50K
+1       41     Private  227991       HS-grad              8   Married-civ-spouse  ...    Male           31            0             40   United-States   <=50K
+2       32     Private  148129  Some-college              9        Never-married  ...    Male           20           19             40   United-States   <=50K
+3       58   State-gov  209728   Prof-school             12   Married-civ-spouse  ...    Male           29            0             28           India   <=50K
+4       34     Private  145044  Some-college             10   Married-civ-spouse  ...    Male            9           29             33   United-States   <=50K
+...    ...         ...     ...           ...            ...                  ...  ...     ...          ...          ...            ...             ...     ...
+27852   43     Private  144777       HS-grad              9   Married-civ-spouse  ...    Male           14            1             38   United-States   <=50K
+27853   21     Private  188813       HS-grad              8             Divorced  ...  Female          124            1             36   United-States   <=50K
+27854   20     Private  182723     Bachelors             10        Never-married  ...    Male           71            7             52   United-States   <=50K
+27855   52     Private  148630       HS-grad              9   Married-civ-spouse  ...    Male           37            0             22   United-States   <=50K
+27856   58     Private   61557     Bachelors             12   Married-civ-spouse  ...    Male            0          431             53   United-States    >50K
+
+[27857 rows x 15 columns]
+Index(['workclass', 'education', 'marital-status', 'occupation',
+       'relationship', 'race', 'native-country'],
+      dtype='object')
+ALG:  RandomForest
+adult/ADULT-SPLIT-TRAIN-60.csv
+gender
+sex  income
+1    0.0       11428
+0    0.0        5802
+1    1.0        1154
+0    1.0         188
+dtype: int64
+CALC disp:  0.657804023459087
+F:  [0.6513725706988309, 0.7381202961058811, -0.05587561607171343, -0.058248403972756345, 0.2232867861399878, -0.035988455706844114]
+A:  [0.8657273439201868, 0.7893427678215815, 0.809036407510795, 0.5944000604116837, 0.5150566977392599]
+sex  income
+1    0.0       11429
+0    0.0        5797
+1    1.0        1153
+0    1.0         193
+dtype: int64
+CALC disp:  0.6483983858613734
+F:  [0.6464623728746401, 0.7472762101927203, -0.039152801510639434, -0.05804959334619729, 0.22247675725711377, -0.028701771052869758]
+A:  [0.8593774200599941, 0.7896819180777459, 0.7974683973136495, 0.5951614730354954, 0.5066124973320513]
+sex  income
+1    0.0       11431
+0    0.0        5807
+1    1.0        1151
+0    1.0         183
+dtype: int64
+CALC disp:  0.6660367916988783
+F:  [0.6646885683735091, 0.7704759860193304, -0.04575958925201579, -0.059245764991104836, 0.22328376523882562, -0.032552246710865686]
+A:  [0.8639162019644512, 0.7891137315543199, 0.8065734798784356, 0.5936696126751275, 0.5028637991080669]
+sex  income
+1    0.0       11447
+0    0.0        5795
+1    1.0        1135
+0    1.0         195
+dtype: int64
+CALC disp:  0.6391210019636251
+F:  [0.6365688149996314, 0.7403975381837263, -0.039663328134236314, -0.056284363216508024, 0.2238236731530633, -0.02828251426640304]
+A:  [0.8628912102424942, 0.7887485675647486, 0.8056712281990279, 0.5933247548966455, 0.4975947535968295]
+sex  income
+1    0.0       11415
+0    0.0        5815
+1    1.0        1167
+0    1.0         175
+dtype: int64
+CALC disp:  0.6850148705425925
+F:  [0.687926592560898, 0.7357924487187004, -0.060308327826983726, -0.06268457068046104, 0.2229260538055824, -0.040478180434539913]
+A:  [0.866580611691969, 0.7894008134290658, 0.8096558697344189, 0.5946886439205364, 0.4971566082456125]
+RandomForest
+sample_data_1_9_0.csv
+1/7
+../adult/adult-VGAN-1hot-norm-split-60/9//sample_data_1_9_0.csv
+gender
+       age workclass  fnlwgt      education  education-num       marital-status  ...     sex capital-gain capital-loss hours-per-week  native-country  income
+0       19   Private  479599           11th              5        Never-married  ...    Male            0            1             33          Mexico    >50K
+1       59   Private  135994      Bachelors             13   Married-civ-spouse  ...    Male          345          181             42   United-States   <=50K
+2       19   Private  209846        HS-grad              7        Never-married  ...  Female            0            1             49   United-States   <=50K
+3       77   Private  138377        5th-6th              4        Never-married  ...    Male         1121          187             18   United-States   <=50K
+4       44   Private  233431   Some-college             11   Married-civ-spouse  ...    Male         1179          638             51   United-States    >50K
+...    ...       ...     ...            ...            ...                  ...  ...     ...          ...          ...            ...             ...     ...
+27852   18   Private  581897        7th-8th              5        Never-married  ...    Male            0            0             25          Mexico    >50K
+27853   59   Private  234112      Bachelors              9   Married-civ-spouse  ...    Male          665         1632             40   United-States   <=50K
+27854   48   Private  204691   Some-college             12   Married-civ-spouse  ...    Male          929          523             44   United-States    >50K
+27855   32   Private  238336   Some-college             10   Married-civ-spouse  ...    Male          229            0             61   United-States   <=50K
+27856   48   Private  223320      Bachelors             12   Married-civ-spouse  ...    Male         1220         1023             47   United-States    >50K
+
+[27857 rows x 15 columns]
+Index(['workclass', 'education', 'marital-status', 'occupation',
+       'relationship', 'race', 'native-country'],
+      dtype='object')
+ALG:  RandomForest
+adult/ADULT-SPLIT-TRAIN-60.csv
+gender
+sex  income
+1    0.0       10122
+0    0.0        4912
+1    1.0        2460
+0    1.0        1078
+dtype: int64
+CALC disp:  0.07953662608412393
+F:  [0.11880043146005892, 0.12314970459542474, 0.012389465763345181, -0.02470729450246953, 0.2771558412390621, -0.015535343597349108]
+A:  [0.9716777660091629, 0.6365148980730206, 0.968135391953402, 0.47685823129009886, 1.2307301982968697]
+sex  income
+1    0.0       9911
+0    0.0       4870
+1    1.0       2671
+0    1.0       1120
+dtype: int64
+CALC disp:  0.11922091542812208
+F:  [0.1503071674344374, 0.07599949980876586, 0.0017711925517026883, -0.03377826014551402, 0.27013551009564624, -0.023213616567546946]
+A:  [0.9708402381630823, 0.6363643942653732, 0.9675055867140767, 0.48631109126398003, 1.2200578117659062]
+sex  income
+1    0.0       10151
+0    0.0        4971
+1    1.0        2431
+0    1.0        1019
+dtype: int64
+CALC disp:  0.11953502649761116
+F:  [0.14515620588523492, 0.12323869974081847, -0.014024059959668461, -0.02982193426895824, 0.2747278358012072, -0.028075798069583685]
+A:  [0.9701743350648434, 0.6435221777422436, 0.966559603930947, 0.48348752400560124, 1.2351996910779515]
+sex  income
+1    0.0       10179
+0    0.0        4959
+1    1.0        2403
+0    1.0        1031
+dtype: int64
+CALC disp:  0.09878636679109387
+F:  [0.13383526224648368, 0.10909949815624409, -0.005464130156051211, -0.02731775854941909, 0.2758397664748346, -0.023559317271218752]
+A:  [0.9676189399677103, 0.6420203693624305, 0.9623157373032509, 0.48107273499617514, 1.2391242272060425]
+sex  income
+1    0.0       9897
+0    0.0       4947
+1    1.0       2685
+0    1.0       1043
+dtype: int64
+CALC disp:  0.18405125861538307
+F:  [0.20772448378298802, 0.09144590059687652, -0.030014570119741985, -0.04684797000248328, 0.27206880430235497, -0.04507473550849604]
+A:  [0.973717559720378, 0.6362037086876983, 0.9687973210109811, 0.48379553179701257, 1.2345281744549528]
+RandomForest
+sample_data_2_9_0.csv
+2/7
+../adult/adult-VGAN-1hot-norm-split-60/9//sample_data_2_9_0.csv
+gender
+       age          workclass  fnlwgt      education  education-num  ... capital-gain capital-loss hours-per-week  native-country  income
+0       60            Private  175708        HS-grad              9  ...            0            0             56   United-States    >50K
+1       47            Private  237433        HS-grad              9  ...            0            0             53   United-States    >50K
+2       23            Private  298057      Bachelors             11  ...           95            5             33   United-States   <=50K
+3       64   Self-emp-not-inc  182610   Some-college             11  ...            0            0             60   United-States   <=50K
+4       27            Private   94582        HS-grad             10  ...          129            1             32   United-States   <=50K
+...    ...                ...     ...            ...            ...  ...          ...          ...            ...             ...     ...
+27852   69            Private   36243        HS-grad              9  ...            0            0             55          Mexico    >50K
+27853   32            Private   86086        HS-grad              8  ...          202            5             32   United-States   <=50K
+27854   32            Private  118737      Bachelors             13  ...          116            6             26   United-States   <=50K
+27855   26            Private  184722        HS-grad              8  ...          140            6             37   United-States   <=50K
+27856   21            Private  118657        HS-grad              9  ...          109            3             28   United-States   <=50K
+
+[27857 rows x 15 columns]
+Index(['workclass', 'education', 'marital-status', 'occupation',
+       'relationship', 'race', 'native-country'],
+      dtype='object')
+ALG:  RandomForest
+adult/ADULT-SPLIT-TRAIN-60.csv
+gender
+sex  income
+1    1.0       9165
+0    0.0       3862
+1    0.0       3417
+0    1.0       2128
+dtype: int64
+CALC disp:  0.5122896043323706
+F:  [0.5142527479396952, 0.3048299844575716, -0.12450734989117529, -0.3722239036670073, 0.12357298943631631, -0.257115962581038]
+A:  [0.9866053820367852, 0.5127499559405105, 0.9846017859387086, 0.5914589910053146, 0.5636933645847578]
+sex  income
+1    1.0       9062
+0    0.0       3753
+1    0.0       3520
+0    1.0       2237
+dtype: int64
+CALC disp:  0.4814808687619955
+F:  [0.4844404695536697, 0.3028429291253123, -0.0969708926045173, -0.346490178565872, 0.12350701664180373, -0.22961340745160297]
+A:  [0.9888979360915147, 0.5138834169471501, 0.9844059335208695, 0.5926579112323429, 0.5726724763646711]
+sex  income
+1    1.0       9393
+0    0.0       3811
+1    0.0       3189
+0    1.0       2179
+dtype: int64
+CALC disp:  0.5127231641792
+F:  [0.5180792288192908, 0.2867054539402414, -0.09537502975717937, -0.3850753774611242, 0.12213095448507243, -0.25458798467695354]
+A:  [0.9870037801857545, 0.49943159043514873, 0.9849213418957818, 0.5841116221385432, 0.558299572537917]
+sex  income
+1    1.0       9529
+0    0.0       3890
+1    0.0       3053
+0    1.0       2100
+dtype: int64
+CALC disp:  0.5370918508845066
+F:  [0.5457554822855729, 0.265968219728944, -0.15199204462437965, -0.41200953724099587, 0.12102969304286987, -0.2947859120125085]
+A:  [0.9909656137855812, 0.4974494210054005, 0.9891324674420623, 0.5836405706856054, 0.5581369742765616]
+sex  income
+1    1.0       9406
+0    0.0       3753
+1    0.0       3176
+0    1.0       2237
+dtype: int64
+CALC disp:  0.5004443581459921
+F:  [0.5037908171868068, 0.28294206178218684, -0.10578236873992808, -0.37430657546144724, 0.12126792028904047, -0.2527774090040802]
+A:  [0.989036385894403, 0.4965645778825075, 0.9866608944129838, 0.5823712770180849, 0.5599159610788957]
+RandomForest
+sample_data_3_9_0.csv
+3/7
+../adult/adult-VGAN-1hot-norm-split-60/9//sample_data_3_9_0.csv
+gender
+       age  workclass  fnlwgt      education  education-num  ... capital-gain capital-loss hours-per-week  native-country  income
+0       39    Private   63276   Some-college              8  ...           20            1             50   United-States   <=50K
+1       32  Local-gov  320586      Bachelors             13  ...           21            0             26   United-States    >50K
+2       41    Private  127618        HS-grad              9  ...          162            3             52   United-States   <=50K
+3       23    Private  128159        HS-grad              8  ...            6            0             40   United-States   <=50K
+4       33  Local-gov  112082        HS-grad             10  ...          130           40             40   United-States   <=50K
+...    ...        ...     ...            ...            ...  ...          ...          ...            ...             ...     ...
+27852   49    Private  212946     Assoc-acdm              9  ...           45            0             37   United-States   <=50K
+27853   40    Private  121005        HS-grad              9  ...           93            3             50   United-States   <=50K
+27854   37    Private  222296        HS-grad              8  ...           61            0             27   United-States   <=50K
+27855   37    Private  342692     Assoc-acdm             13  ...           30            3             35   United-States   <=50K
+27856   31    Private  131364   Some-college             11  ...           35         1271             59   United-States    >50K
+
+[27857 rows x 15 columns]
+Index(['workclass', 'education', 'marital-status', 'occupation',
+       'relationship', 'race', 'native-country'],
+      dtype='object')
+ALG:  RandomForest
+adult/ADULT-SPLIT-TRAIN-60.csv
+gender
+sex  income
+1    0.0       9700
+0    0.0       5523
+1    1.0       2882
+0    1.0        467
+dtype: int64
+CALC disp:  0.659634319980444
+F:  [0.6603081873545371, 0.4797922598179335, -0.16434023676149984, -0.1447322334552766, 0.18054101522596552, -0.1182268263729257]
+A:  [0.9454381962238444, 0.7849868122594865, 0.930952241148729, 0.6597404121483278, 0.7796421044323532]
+sex  income
+1    0.0       9742
+0    0.0       5470
+1    1.0       2840
+0    1.0        520
+dtype: int64
+CALC disp:  0.6154012556138164
+F:  [0.6186692651628269, 0.4719428599018536, -0.15230495097289465, -0.1339056259766791, 0.18230731832726743, -0.10724628190334515]
+A:  [0.9457302551076978, 0.7826577673846447, 0.9310535691495947, 0.657038538451077, 0.7726819698981153]
+sex  income
+1    0.0       9768
+0    0.0       5537
+1    1.0       2814
+0    1.0        453
+dtype: int64
+CALC disp:  0.6618596737277125
+F:  [0.6616354943109952, 0.4955077510024458, -0.15248602109274567, -0.14156955614030572, 0.1818043385895335, -0.1117011230020163]
+A:  [0.9467765565905089, 0.7860752490159346, 0.9354085447286788, 0.6582812187802825, 0.7771263253458077]
+sex  income
+1    0.0       9792
+0    0.0       5502
+1    1.0       2790
+0    1.0        488
+dtype: int64
+CALC disp:  0.6326005708438796
+F:  [0.628471559342551, 0.46739693435847574, -0.13644322119234015, -0.1334081906800083, 0.1807778664258487, -0.09942031372184845]
+A:  [0.9492572738748623, 0.7874509884155199, 0.9339743436682936, 0.6607513959949942, 0.7770631106963715]

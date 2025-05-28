@@ -1,0 +1,14 @@
+\begin{table*}\resizebox{\textwidth}{!}{
+\caption{Precision\label{table: prec}}
+\centering
+\begin{tabular}{llllllll}
+\toprule
+Dataset & Original & Gan & Fairgan & Tabfairgan & Fair-Swap & Naive & \sys \\
+\midrule
+Adult & 0.802 & 0.647 $\pm$ 0.005 & 0.3 $\pm$ 0.029 & 0.608 $\pm$ 0.009 & 0.614 $\pm$ 0.002 & \bfseries 0.747 $\pm$ 0.005 & 0.51 $\pm$ 0.006 \\
+Bank & 0.652 & 0.47 $\pm$ 0.013 & 0.134 $\pm$ 0.045 & \bfseries 0.61 $\pm$ 0.009 & 0.414 $\pm$ 0.004 & 0.135 $\pm$ 0.001 & 0.405 $\pm$ 0.017 \\
+Compas & 0.681 & 0.694 $\pm$ 0.009 & 0.628 $\pm$ 0.017 & 0.679 $\pm$ 0.007 & 0.696 $\pm$ 0.002 & 0.693 $\pm$ 0.004 & \bfseries 0.697 $\pm$ 0.005 \\
+Medical & 0.582 & 0.55 $\pm$ 0.01 & 0.356 $\pm$ 0.132 & 0.466 $\pm$ 0.006 & 0.548 $\pm$ 0.004 & \bfseries 0.583 $\pm$ 0.004 & 0.38 $\pm$ 0.007 \\
+\bottomrule
+\end{tabular}
+}\end{table*}

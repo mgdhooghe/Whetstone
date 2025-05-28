@@ -1,0 +1,14 @@
+,file,DI,Stat Par,Avg Odds,Eq Opp,Theil,prec,rec,acc,bal_acc
+0,Original,0.602,-0.297,-0.061,-0.067,0.128,0.591,0.369,0.851,0.659
+1,Base,0.014,0.011,0.086,0.122,0.115,0.386,0.597,0.773,0.703
+2,Base,0.036,-0.034,0.077,0.114,0.105,0.374,0.672,0.756,0.723
+3,Base,0.014,0.012,0.095,0.143,0.111,0.362,0.639,0.75,0.706
+4,sample_data_parallel_medical-VGAN-norm-d-None_RACE_1.csv,0.6,-0.925,-0.226,-0.193,0.096,0.377,0.736,0.752,0.746
+5,sample_data_parallel_medical-VGAN-norm-d-None_RACE_2.csv,0.528,-0.708,-0.156,-0.125,0.1,0.385,0.699,0.762,0.737
+6,sample_data_parallel_medical-VGAN-norm-d-None_RACE_3.csv,0.614,-0.966,-0.234,-0.189,0.096,0.373,0.734,0.748,0.742
+7,sample_data_parallel_medical-VGAN-norm-d-EqOp_RACE_1.csv,0.391,-0.352,-0.04,-0.013,0.11,0.433,0.591,0.802,0.718
+8,sample_data_parallel_medical-VGAN-norm-d-EqOp_RACE_2.csv,0.34,-0.369,-0.041,-0.011,0.103,0.393,0.673,0.771,0.732
+9,sample_data_parallel_medical-VGAN-norm-d-EqOp_RACE_3.csv,0.45,-0.443,-0.07,-0.047,0.105,0.438,0.624,0.803,0.731
+10,sample_data_parallel_medical-VGAN-norm-d-AvgOdd_RACE_1.csv,0.314,-0.318,-0.024,0.004,0.104,0.402,0.657,0.779,0.73
+11,sample_data_parallel_medical-VGAN-norm-d-AvgOdd_RACE_2.csv,0.305,-0.254,-0.018,-0.005,0.112,0.429,0.579,0.8,0.712
+12,sample_data_parallel_medical-VGAN-norm-d-AvgOdd_RACE_3.csv,0.272,-0.267,-0.001,0.038,0.106,0.398,0.65,0.776,0.726
