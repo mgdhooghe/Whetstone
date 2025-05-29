@@ -48,10 +48,12 @@ Generated Data Found in Whetstone/project/FAIR_SWAP
 
 ## Naive
 Inside of Docker container \
-`python main-naive.py [directory] [data_name] [training_file] [protected] [privileged] [predicted] [preferred]` 
+`python main-naive.py [directory] [data_name] [training_file] [protected] [privileged] [predicted] [preferred]` \
+Generated Data Found in Whetstone/project/ablation_study/ablation_study_data/ablation_study_NAIVE2
 
 
 # Testing the Resultant Datasets
 `python testing-metrics.py [dataset] [protected]` \
-[dataset] and [protected] should be present in the var_utils.py functions `get_og_file` and `get_labels`
+[dataset] and [protected] should be present in the `get_og_file` function
+
 
