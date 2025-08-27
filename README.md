@@ -6,13 +6,13 @@
 `docker run -it whetstone:latest /bin/bash`\
 Inside of Docker Container\
 `python main-ablation.py [directory] [data_name] [training_file] [protected] [privileged] [predicted] [preferred]`\
-[directory]: the directory containing the synthetically generated data files
-[data_name]: name of this test run
-[training_file]: real data file
-[protected]: protected feature
-[privileged]: protected feature privileged value
-[predicted]: predicted feature
-[preferred]: predicted feature preferred value
+[directory]: the directory containing the synthetically generated data files \
+[data_name]: name of this test run \
+[training_file]: real data file \
+[protected]: protected feature \
+[privileged]: protected feature privileged value \
+[predicted]: predicted feature \
+[preferred]: predicted feature preferred value 
 
 ## Example
 `python main-ablation.py ../gan_data/compas/compas-pro-VGAN-1hot-norm-split-valid-best/9/ test_name real_data/propublica-compas/PROPUBLICA-COMPAS-SPLIT-VALID-20 race Caucasian two_year_recid 0`
